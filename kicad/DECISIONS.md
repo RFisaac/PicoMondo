@@ -83,6 +83,17 @@ Decisions made in conversation. These overrule anything in `../resources/` (old 
 - Rules: 0.127 mm track/clearance, via 0.45/0.2 minimum; classes Default, Power, PowerHigh, USB (0.15 mm track, 0.16 mm gap for 90 ohm).
 - The PCB is generated through KiCad's own pcbnew API (not kiutils) so footprints are exactly KiCad's; do not re-run make_pcb --force after placing parts.
 
+## Parts and JLCPCB assembly (2026-10-04, see bom/)
+- `bom/parts.csv` is the source of truth for LCSC numbers and MPNs, keyed by (Value, Footprint). `tools/apply_parts.py` writes them into the
+  schematic, `tools/sync_board_parts.py` onto the board, `tools/bom.py` makes `bom/jlcpcb_bom.csv`, `jlcpcb_cpl.csv` and `BOM_REPORT.md`
+  with a live JLCPCB stock check. Re-run `bom.py` after placement and before ordering.
+- Passives are JLCPCB basic parts where one exists (0402 resistors, most caps). 21 of 67 line items are basic; the rest are extended.
+- Changed for availability or fit: BOOTSEL/RESET now the 5.1 mm TS-1187A-B-A-B switch (basic, C318884; the old footprint was a 3 mm Wurth part
+  that did not match the listed Omron B3FS, a 12 mm switch; pins go to the diagonal pads); SWD header A1002WR-S-3P (SH-compatible, JST was 2 in stock);
+  D5/D7 SS54 (SS54-HF out of stock); WS2812B-V5/W; C40-C43 10u caps now X5R 25 V (C91158 was Y5V and out of stock).
+- Through-hole parts (J7, J8, J11, Arduino and Pico sockets) are in the BOM but not the SMD placement file; check whether to hand-fit them.
+- Not assembled: EdgeLock connectors (contact fingers on the board), DNP parts (U3 spare flash, C26, C39), test points, fiducials, jumpers.
+
 ## Open
 - Barrel jack rated 24 V vs the 28 V design range (see docs/power_input.md).
 - Output fuse hold current derates with temperature (3 A hold at room temperature).
@@ -91,3 +102,4 @@ Decisions made in conversation. These overrule anything in `../resources/` (old 
 - EdgeLock notches are 0.85 mm wide; JLCPCB's stated minimum routed slot is 1.0 mm: check with their DFM tool (docs/io.md).
 - microSD socket pins 9/10 (card-detect switch): confirm against the Molex drawing.
 - Mounting hole and fiducial positions, header placement: PCB stage.
+- Confirm CPL rotations in JLCPCB's preview before ordering (SOT-23, QFN, polarised parts often need a correction).

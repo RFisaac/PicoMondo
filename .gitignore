@@ -45,3 +45,4 @@ venv/
 # KiCad local history
 .history/
 *.lck
+kicad/bom/.jlc_cache.json

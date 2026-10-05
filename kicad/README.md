@@ -36,6 +36,8 @@ nets are global and join across sheets; other labels are local to their sheet.
 | `compare_pi.py`, `compare_passives.py` | Check the MCU core against the Raspberry Pi reference |
 | `make_pcb.py` | Creates the PCB once (needs KiCad's Python); see docs/pcb.md |
 | `drc_report.py`, `project_settings.py` | PCB DRC summary; design rules and net classes |
+| `add_shield_outlines.py` | Non-printing Uno and Pico outlines in the socket group |
+| `apply_parts.py`, `sync_board_parts.py`, `bom.py` | LCSC numbers from `bom/parts.csv` into schematic and board; JLCPCB BOM, CPL and stock report |
 | `fetch_datasheets.py`, `make_edgelock_fp.py`, `fix_lcsc_footprints.py`, `symfind.py`, `libpins.py` | Library and datasheet helpers |
 
 Once a sheet has been edited in KiCad, that file is the source of truth. New sheets can be added

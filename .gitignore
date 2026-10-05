@@ -44,3 +44,4 @@ venv/
 
 # KiCad local history
 .history/
+*.lck

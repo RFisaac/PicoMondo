@@ -246,4 +246,9 @@
     (zone_connect 2) (tstamp 0d6a254e-40b2-4034-bf9f-54f4ab28872f))
   (pad "81" smd rect (at 1.133333 1.133333) (size 1.133333 1.133333) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin -0.5) (thermal_bridge_angle 45) (tstamp 41fc936a-53b3-4535-86de-be3265aa6945))
+  (model "${KIPRJMOD}/lib/3dmodels/RP2350_QFN80.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

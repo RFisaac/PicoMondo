@@ -51,8 +51,10 @@ use 0 ohm to bypass. Power pins (+3V3, +5V_SW) are unfused: a shorted cable is l
 suits 3.3 V logic: it does not conduct below about 2.4 V, so an input held by a weak pull-up still reads high
 (a red or green LED would pull it down). Listed pins: GPIO0-7, 10, 11, 16-19, 26-33 and the ADC pins.
 
-**ADC pins (GPIO40-47):** an open solder jumper is in series with the LED. Bridge it to enable the LED; left open,
-the pin sees no extra load, so analog readings are clean.
+**ADC pins (GPIO40-47):** the LED is on like the others, but when routing, leave a narrow neck (0.15 mm) in the trace
+between the GPIO net and that pin's 470 ohm resistor, with a small silkscreen "cut" mark across it. A knife cut there
+disconnects the LED so the pin carries no extra load for precision analog readings. (There is no jumper part; the eight
+solder jumpers JP1-JP8 were removed, `tools/remove_led_jumpers.py`.)
 
 Pins without an indicator: GPIO8, 9, 24 (output enables), 12-15 and 22 (microSD), 20 and 21 (I2C), 23 (WS2812),
 25 (user LED), 34 and 35 (PD alert, converter fault) and 36-39 (spare, on test points).

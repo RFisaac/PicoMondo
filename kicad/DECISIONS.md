@@ -16,7 +16,7 @@ Decisions made in conversation. These overrule anything in `../resources/` (old 
 | Layers | 4-layer, 1.6 mm (JLCPCB-style stackup) |
 | 5 V converter | TPS55288 buck-boost (verify from datasheet whether external switching FETs are needed) |
 | Current monitors (J7, J8) | INA226, addresses 0x40 (J7) / 0x41 (J8) |
-| GPIO indicator LEDs | Shunt LED, about 1 mA to GND, outside the signal path; jumper/DNP option on ADC pins (GPIO40-47) |
+| GPIO indicator LEDs | Shunt LED, about 1 mA to GND, outside the signal path; on the ADC pins (GPIO40-47) a trace neck you cut with a knife disconnects the LED |
 | Flash | W25Q128JVS (16 MB, SOIC-8) as primary, as in the Pi reference. Plus Pi's optional second-memory footprint (DNP): extra chip select on GPIO0, so GPIO0 stays free for EdgeLock/Arduino unless that part is fitted. Bulk data goes on the microSD. |
 | Size | 120 x 90 mm, 3 mm corners, 4x M3 |
 
@@ -70,7 +70,7 @@ Decisions made in conversation. These overrule anything in `../resources/` (old 
 - EdgeLock J1-J6, J9 are Molex 200890 board-edge contact pads (not SMD parts); the spec's 502598-0603 is the wrong series.
   Footprints come from Molex's KiCad footprints (pads and edge notches) and match Molex's sales drawing; mating housings 2008900106 (J1-4, J6, J9) and 2008900104 (J5).
 - Connector references follow the spec: J1-J6 and J9 EdgeLock, J7 and J8 output terminals, J10 SWD.
-- Indicator LEDs: 30 shunt LEDs (470 ohm + white LED); the 8 ADC pins have an open solder jumper in series. 100 ohm series
+- Indicator LEDs: 30 shunt LEDs (470 ohm + white LED); the 8 ADC pins' LEDs are on by default and are disconnected by cutting a trace neck (no jumper parts; JP1-JP8 removed 2026-10-04). 100 ohm series
   resistors on every EdgeLock signal pin.
 - Arduino D0 = RX = GPIO1, D1 = TX = GPIO0. GPIO10/11 as UART1 TX/RX is valid (RP2350 function 11).
 - WS2812B powered through a series Schottky so a 3.3 V GPIO meets its logic-high threshold.
@@ -93,6 +93,16 @@ Decisions made in conversation. These overrule anything in `../resources/` (old 
   D5/D7 SS54 (SS54-HF out of stock); WS2812B-V5/W; C40-C43 10u caps now X5R 25 V (C91158 was Y5V and out of stock).
 - Through-hole parts (J7, J8, J11, Arduino and Pico sockets) are in the BOM but not the SMD placement file; check whether to hand-fit them.
 - Not assembled: EdgeLock connectors (contact fingers on the board), DNP parts (U3 spare flash, C26, C39), test points, fiducials, jumpers.
+
+## Routing review (2026-10-05)
+- JLCPCB 4-layer limits, from their capabilities page: tracks and spacing 0.10 / 0.10 mm on 1 oz copper (outer layers here), copper to routed
+  edge at least 0.2 mm, vias 0.2 mm hole / 0.45 mm pad at standard price; vias down to 0.15 / 0.25 mm are possible but cost more.
+- The first routing pass (outside plugin) used 0.0889 mm tracks (61 on F.Cu/B.Cu: CDC, QSPI_SS, GPIO39, ILIM) and 7 vias smaller than 0.45 / 0.2.
+  Widening them to 0.10 mm makes 30 clearance errors, so they were left; re-route with 0.10 / 0.10 and 0.45 / 0.2 rules to remove the surcharge risk.
+- USB D+/D- were routed about 111 / 122 mm long on the inner layers (straight distance about 45 mm): re-route by hand on F.Cu.
+- Fixed by hand: fiducials moved to three spread corners, J12 moved 0.25 mm in from the edge, three In2 +3V3 tracks moved off the EdgeLock notch corners,
+  GND pin 8 of J18/J19 connected solid to the plane.
+- Left open: 7 unrouted connections (U11 GND pin 6, U1 pin 64 +3V3, U4 pin 13 +5V, U4 pin 26 VOUT_PRE, U10 pin 22 +3V3_AUX, GPIO9 at U1 pin 7, one +1V1 gap).
 
 ## Open
 - Barrel jack rated 24 V vs the 28 V design range (see docs/power_input.md).

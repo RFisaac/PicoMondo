@@ -1,1933 +1,5857 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 9f5d7ea2-dea6-48fa-9cfe-5645d6652fa5)
-
-  (paper "A2")
-
-  (title_block
-    (title "EdgeLock connectors")
-    (date "2026-10-01")
-    (rev "1")
-    (company "PicoMondo")
-  )
-
-  (lib_symbols
-    (symbol "Connector_Generic:Conn_01x06" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 7.62 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x06" (at 0 -10.16 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Datasheet" "" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "Conn_01x06_1_1"
-        (rectangle (start -1.27 6.35) (end 1.27 -8.89)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -7.493) (end 0 -7.747)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 0) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-
-    (symbol "Device:R" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Datasheet" "" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Description" "Resistor" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-
-    (symbol "Connector_Generic:Conn_01x04" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x04" (at 0 -7.62 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Datasheet" "" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0) (show_name)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "Conn_01x04_1_1"
-        (rectangle (start -1.27 3.81) (end 1.27 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (wire (pts (xy 78.74 58.42) (xy 83.82 58.42))
-    (stroke (width 0) (type default))
-    (uuid def6d4c9-d88a-4c36-b333-b3a6d3a8fcf5)
-  )
-  (wire (pts (xy 71.12 58.42) (xy 63.5 58.42))
-    (stroke (width 0) (type default))
-    (uuid 964a2a94-5bca-4b4d-97c9-c820128dba05)
-  )
-  (wire (pts (xy 78.74 60.96) (xy 83.82 60.96))
-    (stroke (width 0) (type default))
-    (uuid 70698d49-a157-4d17-a5ff-ac9a59e387c0)
-  )
-  (wire (pts (xy 71.12 60.96) (xy 63.5 60.96))
-    (stroke (width 0) (type default))
-    (uuid e22c0ce2-9437-4520-9bb5-a4b2ef4d82f3)
-  )
-  (wire (pts (xy 83.82 63.5) (xy 76.2 63.5))
-    (stroke (width 0) (type default))
-    (uuid f5cb7ae3-fcdc-4ae3-86a9-0c361567ffc8)
-  )
-  (wire (pts (xy 83.82 66.04) (xy 76.2 66.04))
-    (stroke (width 0) (type default))
-    (uuid 7ef04f3e-22db-44a9-a825-81955e9ac9b3)
-  )
-  (wire (pts (xy 78.74 68.58) (xy 83.82 68.58))
-    (stroke (width 0) (type default))
-    (uuid de76676b-976e-444b-b04c-7d635b3c66c1)
-  )
-  (wire (pts (xy 71.12 68.58) (xy 63.5 68.58))
-    (stroke (width 0) (type default))
-    (uuid 09062cd6-b6e1-4f0c-941c-79d58b0bbea0)
-  )
-  (wire (pts (xy 78.74 71.12) (xy 83.82 71.12))
-    (stroke (width 0) (type default))
-    (uuid d97c95fb-1c0a-42e8-87bc-c0b452457c75)
-  )
-  (wire (pts (xy 71.12 71.12) (xy 63.5 71.12))
-    (stroke (width 0) (type default))
-    (uuid 99c45851-827e-4c2f-9adb-2abcda6e479d)
-  )
-  (wire (pts (xy 78.74 109.22) (xy 83.82 109.22))
-    (stroke (width 0) (type default))
-    (uuid b2db5645-8755-4dcd-9fd9-83155b583c26)
-  )
-  (wire (pts (xy 71.12 109.22) (xy 63.5 109.22))
-    (stroke (width 0) (type default))
-    (uuid 3c6ea297-2fc6-43ff-a2c3-595b77a11396)
-  )
-  (wire (pts (xy 78.74 111.76) (xy 83.82 111.76))
-    (stroke (width 0) (type default))
-    (uuid e376a5e5-2e6d-4121-9334-7d8c7f605293)
-  )
-  (wire (pts (xy 71.12 111.76) (xy 63.5 111.76))
-    (stroke (width 0) (type default))
-    (uuid 04cc0825-c9f3-4799-8d22-b78d9ea83b35)
-  )
-  (wire (pts (xy 83.82 114.3) (xy 76.2 114.3))
-    (stroke (width 0) (type default))
-    (uuid 213cfe96-a6aa-4a29-b380-70c897a4df89)
-  )
-  (wire (pts (xy 83.82 116.84) (xy 76.2 116.84))
-    (stroke (width 0) (type default))
-    (uuid 43c60036-d989-414d-a36d-c30d96419db0)
-  )
-  (wire (pts (xy 78.74 119.38) (xy 83.82 119.38))
-    (stroke (width 0) (type default))
-    (uuid bede45ed-dd50-4c2c-80c3-8ff2d7f55306)
-  )
-  (wire (pts (xy 71.12 119.38) (xy 63.5 119.38))
-    (stroke (width 0) (type default))
-    (uuid c650e3e3-7345-41f4-901c-0b5fe8717a3e)
-  )
-  (wire (pts (xy 78.74 121.92) (xy 83.82 121.92))
-    (stroke (width 0) (type default))
-    (uuid c29b28ea-a3bc-4cc3-b130-380be8d2cf1d)
-  )
-  (wire (pts (xy 71.12 121.92) (xy 63.5 121.92))
-    (stroke (width 0) (type default))
-    (uuid eb2abc55-1fb0-4015-a95d-9f9756f372d2)
-  )
-  (wire (pts (xy 78.74 160.02) (xy 83.82 160.02))
-    (stroke (width 0) (type default))
-    (uuid 6d17b527-88a0-47a3-b113-f9fd65a9e296)
-  )
-  (wire (pts (xy 71.12 160.02) (xy 63.5 160.02))
-    (stroke (width 0) (type default))
-    (uuid 8c5533e6-8156-4238-8e3e-55d7d7811f16)
-  )
-  (wire (pts (xy 78.74 162.56) (xy 83.82 162.56))
-    (stroke (width 0) (type default))
-    (uuid cc92c8ce-a0d4-4ebe-9f87-5dbd76374a00)
-  )
-  (wire (pts (xy 71.12 162.56) (xy 63.5 162.56))
-    (stroke (width 0) (type default))
-    (uuid c568a522-6500-4854-8e63-a5e66dac4be6)
-  )
-  (wire (pts (xy 83.82 165.1) (xy 76.2 165.1))
-    (stroke (width 0) (type default))
-    (uuid 4df41afd-65ed-4dd4-9138-ad18156bd226)
-  )
-  (wire (pts (xy 83.82 167.64) (xy 76.2 167.64))
-    (stroke (width 0) (type default))
-    (uuid 90ee1bbd-45fa-4dc1-82fc-3297cf563968)
-  )
-  (wire (pts (xy 78.74 170.18) (xy 83.82 170.18))
-    (stroke (width 0) (type default))
-    (uuid 61e117ce-3c05-4fed-9326-4baf54a3f8cb)
-  )
-  (wire (pts (xy 71.12 170.18) (xy 63.5 170.18))
-    (stroke (width 0) (type default))
-    (uuid 35c05876-3260-4af6-8ec7-4cb6b6729404)
-  )
-  (wire (pts (xy 78.74 172.72) (xy 83.82 172.72))
-    (stroke (width 0) (type default))
-    (uuid 37e40a64-1d3c-4648-abf4-64771b900dbd)
-  )
-  (wire (pts (xy 71.12 172.72) (xy 63.5 172.72))
-    (stroke (width 0) (type default))
-    (uuid 2cd0a163-acad-4680-8a9f-fa5d333f5971)
-  )
-  (wire (pts (xy 78.74 210.82) (xy 83.82 210.82))
-    (stroke (width 0) (type default))
-    (uuid 955778f2-27e8-432c-a406-33f7e1698f80)
-  )
-  (wire (pts (xy 71.12 210.82) (xy 63.5 210.82))
-    (stroke (width 0) (type default))
-    (uuid 381924a2-98d0-4530-b9b7-a49ecfe64d86)
-  )
-  (wire (pts (xy 78.74 213.36) (xy 83.82 213.36))
-    (stroke (width 0) (type default))
-    (uuid 09bdb9f5-ba7c-452a-a064-73be046ebc7f)
-  )
-  (wire (pts (xy 71.12 213.36) (xy 63.5 213.36))
-    (stroke (width 0) (type default))
-    (uuid becf1c8c-7858-4f8f-a1d6-2456a6ed5275)
-  )
-  (wire (pts (xy 83.82 215.9) (xy 76.2 215.9))
-    (stroke (width 0) (type default))
-    (uuid 3915d20b-11ee-49dc-9a2c-975719596468)
-  )
-  (wire (pts (xy 83.82 218.44) (xy 76.2 218.44))
-    (stroke (width 0) (type default))
-    (uuid e7981085-1c08-420c-b8e6-c530732faf3e)
-  )
-  (wire (pts (xy 78.74 220.98) (xy 83.82 220.98))
-    (stroke (width 0) (type default))
-    (uuid 566283f3-d19d-401b-bc12-99ec76eea12a)
-  )
-  (wire (pts (xy 71.12 220.98) (xy 63.5 220.98))
-    (stroke (width 0) (type default))
-    (uuid a3d3cab4-664a-4cb3-9a13-ee3ebe27ee7e)
-  )
-  (wire (pts (xy 78.74 223.52) (xy 83.82 223.52))
-    (stroke (width 0) (type default))
-    (uuid 88efe100-6db8-4ea8-b937-b0d3325c34ea)
-  )
-  (wire (pts (xy 71.12 223.52) (xy 63.5 223.52))
-    (stroke (width 0) (type default))
-    (uuid 40573c83-1291-4130-b65d-6a68e7b89e8b)
-  )
-  (wire (pts (xy 78.74 264.16) (xy 83.82 264.16))
-    (stroke (width 0) (type default))
-    (uuid eaf46513-faef-4df7-aabf-a643672317f8)
-  )
-  (wire (pts (xy 71.12 264.16) (xy 63.5 264.16))
-    (stroke (width 0) (type default))
-    (uuid 1e68834c-18ae-4da9-81f3-566be3cdb674)
-  )
-  (wire (pts (xy 78.74 266.7) (xy 83.82 266.7))
-    (stroke (width 0) (type default))
-    (uuid 3d63ae1a-2f38-4757-b886-4c9296c78eae)
-  )
-  (wire (pts (xy 71.12 266.7) (xy 63.5 266.7))
-    (stroke (width 0) (type default))
-    (uuid 7f8d2ad0-21b3-43bb-a0c8-88534100ba28)
-  )
-  (wire (pts (xy 78.74 269.24) (xy 83.82 269.24))
-    (stroke (width 0) (type default))
-    (uuid cefd0523-e244-417e-b640-222ee34176fa)
-  )
-  (wire (pts (xy 71.12 269.24) (xy 63.5 269.24))
-    (stroke (width 0) (type default))
-    (uuid 1061ec63-dabc-4243-b856-487fa2b1506d)
-  )
-  (wire (pts (xy 78.74 271.78) (xy 83.82 271.78))
-    (stroke (width 0) (type default))
-    (uuid 9b1098bc-dc64-4e54-a328-87945ddf1725)
-  )
-  (wire (pts (xy 71.12 271.78) (xy 63.5 271.78))
-    (stroke (width 0) (type default))
-    (uuid 20654b9d-fbb2-4009-a09f-b4c17c6c318d)
-  )
-  (wire (pts (xy 243.84 58.42) (xy 248.92 58.42))
-    (stroke (width 0) (type default))
-    (uuid 271f7674-3c06-413a-b607-5c76b3a9cb22)
-  )
-  (wire (pts (xy 236.22 58.42) (xy 228.6 58.42))
-    (stroke (width 0) (type default))
-    (uuid 0faa9ccb-9e5f-4a04-9f57-012e7cc72965)
-  )
-  (wire (pts (xy 243.84 60.96) (xy 248.92 60.96))
-    (stroke (width 0) (type default))
-    (uuid 2c28a9ae-97f0-4320-85a9-0acdef3f36f0)
-  )
-  (wire (pts (xy 236.22 60.96) (xy 228.6 60.96))
-    (stroke (width 0) (type default))
-    (uuid 05638c6f-c257-47ac-8f68-38c03bbcfe93)
-  )
-  (wire (pts (xy 243.84 63.5) (xy 248.92 63.5))
-    (stroke (width 0) (type default))
-    (uuid 6df188af-158b-4774-bf66-9e3f30afb08d)
-  )
-  (wire (pts (xy 236.22 63.5) (xy 228.6 63.5))
-    (stroke (width 0) (type default))
-    (uuid 3b8c729c-5114-48e5-92b1-9229082ae49d)
-  )
-  (wire (pts (xy 243.84 66.04) (xy 248.92 66.04))
-    (stroke (width 0) (type default))
-    (uuid 54b8a093-182c-43cc-869a-ff3f5ce6876f)
-  )
-  (wire (pts (xy 236.22 66.04) (xy 228.6 66.04))
-    (stroke (width 0) (type default))
-    (uuid 0844cfef-c33a-4dc3-ab68-f23dbf49fe20)
-  )
-  (wire (pts (xy 248.92 68.58) (xy 241.3 68.58))
-    (stroke (width 0) (type default))
-    (uuid 27cd95e5-e757-4971-876a-89a4f3439ca2)
-  )
-  (wire (pts (xy 248.92 71.12) (xy 241.3 71.12))
-    (stroke (width 0) (type default))
-    (uuid feb8f2bc-d5b1-4094-bfc6-0aea7a4181d8)
-  )
-  (wire (pts (xy 248.92 109.22) (xy 241.3 109.22))
-    (stroke (width 0) (type default))
-    (uuid 5cd818b0-e1e1-4001-8867-2f5caf9e034f)
-  )
-  (wire (pts (xy 243.84 111.76) (xy 248.92 111.76))
-    (stroke (width 0) (type default))
-    (uuid b9ed4390-1523-487c-8c4f-b095804b59ab)
-  )
-  (wire (pts (xy 236.22 111.76) (xy 228.6 111.76))
-    (stroke (width 0) (type default))
-    (uuid 11635147-78bc-402c-a535-75864b90b963)
-  )
-  (wire (pts (xy 243.84 114.3) (xy 248.92 114.3))
-    (stroke (width 0) (type default))
-    (uuid 13398fe4-2485-462b-8f50-f3c2a5bf32ad)
-  )
-  (wire (pts (xy 236.22 114.3) (xy 228.6 114.3))
-    (stroke (width 0) (type default))
-    (uuid 37aad3a5-0947-41dc-8c16-e54c0a935254)
-  )
-  (wire (pts (xy 243.84 116.84) (xy 248.92 116.84))
-    (stroke (width 0) (type default))
-    (uuid 13d750cd-bc55-4e40-9de3-474416f416cd)
-  )
-  (wire (pts (xy 236.22 116.84) (xy 228.6 116.84))
-    (stroke (width 0) (type default))
-    (uuid fa539034-6a55-493b-b035-42d2f2dc2d44)
-  )
-  (wire (pts (xy 243.84 119.38) (xy 248.92 119.38))
-    (stroke (width 0) (type default))
-    (uuid 8d145a7c-f0e1-4824-b686-0db154655000)
-  )
-  (wire (pts (xy 236.22 119.38) (xy 228.6 119.38))
-    (stroke (width 0) (type default))
-    (uuid e47c0f4a-e589-4852-b2e6-8aec484b8fcd)
-  )
-  (wire (pts (xy 248.92 121.92) (xy 241.3 121.92))
-    (stroke (width 0) (type default))
-    (uuid 694704c2-039b-43f6-809f-29fa13fc308e)
-  )
-
-  (text "Pins 1-2 and 5-6 of the 6-pin connectors carry signals; the 100 ohm series resistors protect the MCU\nfrom user wiring. Indicator LEDs are on the next sheet. These connectors share GPIOs with the Arduino\nand Pico headers: use one accessory class at a time."
-    (at 25.4 25.4 0)
-    (effects (font (size 1.8 1.8)) (justify left))
-    (uuid e07f38f9-cd85-47ca-9895-483448267395)
-  )
-  (text "J1: joystick-ready. GPIO0 and GPIO1 are also UART0 TX / RX; GPIO40/41 are ADC0 / ADC1."
-    (at 50.800000000000004 45.72 0)
-    (effects (font (size 1.8 1.8)) (justify left))
-    (uuid fee1c061-41a1-490c-8a53-9511f412fe94)
-  )
-  (text "J2: joystick-ready. GPIO42/43 are ADC2 / ADC3." (at 50.800000000000004 96.52 0)
-    (effects (font (size 1.8 1.8)) (justify left))
-    (uuid 24010967-e5b1-4749-abf6-b19635281806)
-  )
-  (text "J3: joystick-ready. GPIO44/45 are ADC4 / ADC5." (at 50.800000000000004 147.32 0)
-    (effects (font (size 1.8 1.8)) (justify left))
-    (uuid 089fdb09-bd08-4b70-af1d-e09db66ff2a3)
-  )
-  (text "J4: joystick-ready. GPIO46/47 are ADC6 / ADC7." (at 50.800000000000004 198.12 0)
-    (effects (font (size 1.8 1.8)) (justify left))
-    (uuid 8ae0713e-81ca-4fc2-9779-a62e2a5e4d72)
-  )
-  (text "J5: SPI0 (MISO, CS, SCK, MOSI), shared with the Arduino header."
-    (at 50.800000000000004 248.92 0)
-    (effects (font (size 1.8 1.8)) (justify left))
-    (uuid c019dda4-213d-46ae-9d24-ab9b79eec2d5)
-  )
-  (text "J6: UART1 (TX, RX) plus enable and IRQ lines, for serial modules."
-    (at 215.9 45.72 0)
-    (effects (font (size 1.8 1.8)) (justify left))
-    (uuid 4124daac-e4c7-4324-bdc5-9403c5cff142)
-  )
-  (text "J9: servo / motor connector: switched 5 V (GPIO24), four PWM-capable GPIOs."
-    (at 215.9 96.52 0)
-    (effects (font (size 1.8 1.8)) (justify left))
-    (uuid 8aab01b7-c60b-49b9-958a-465c344bfcff)
-  )
-
-  (global_label "GPIO0" (shape bidirectional) (at 63.5 58.42 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 07b6dcc1-bf98-4341-83fc-b213a377de28)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO40" (shape bidirectional) (at 63.5 60.96 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2568ff2b-bf27-492d-96ee-cb2d8cc47f2c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GND" (shape bidirectional) (at 76.2 63.5 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 39f5f2ec-166e-4854-a561-2ec478ea4545)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 76.2 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "+3V3" (shape bidirectional) (at 76.2 66.04 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ec9cb1d4-d390-40b5-8afe-d0a4a59ca7fa)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 76.2 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO1" (shape bidirectional) (at 63.5 68.58 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid de7a1b63-12fb-4b69-b3eb-10609a1bbfaa)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO41" (shape bidirectional) (at 63.5 71.12 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d30736dc-f512-4866-8700-129cdf31ffcc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO2" (shape bidirectional) (at 63.5 109.22 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d662492d-bbf6-4ac4-939c-1de712598b42)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO42" (shape bidirectional) (at 63.5 111.76 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b0651f38-9d8a-430b-a564-36ba93187523)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GND" (shape bidirectional) (at 76.2 114.3 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 12a0c2af-6eba-4b45-9e1a-0e47cefc369e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 76.2 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "+3V3" (shape bidirectional) (at 76.2 116.84 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8afe89a9-bcbb-45ad-a084-f68d6a655743)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 76.2 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO3" (shape bidirectional) (at 63.5 119.38 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c4a6d86d-1eb5-4cbe-840e-ab77af09f409)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO43" (shape bidirectional) (at 63.5 121.92 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4b39f278-a9b6-4884-b2dd-a9ac6312583f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO4" (shape bidirectional) (at 63.5 160.02 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fb9db3d9-05aa-476e-9478-aecb546df4d5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO44" (shape bidirectional) (at 63.5 162.56 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid cfbe70a7-b615-486a-8214-3551ff5fe8fc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GND" (shape bidirectional) (at 76.2 165.1 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8bebe262-3b4b-4343-aa2d-e53eeb65550f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 76.2 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "+3V3" (shape bidirectional) (at 76.2 167.64 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 49e2f7b0-3a05-427d-8d65-7a5c6d049bb7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 76.2 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO5" (shape bidirectional) (at 63.5 170.18 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid aadf1aba-cef1-40a6-b5f9-3ad18238964e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO45" (shape bidirectional) (at 63.5 172.72 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0e9bf234-867f-416b-9645-c09b64c8a42a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 172.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO6" (shape bidirectional) (at 63.5 210.82 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 07eba3b1-4f70-4e33-8de0-8e25ff101f81)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 210.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO46" (shape bidirectional) (at 63.5 213.36 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f564bcbb-b4d8-4f51-a662-07dea5bdead4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 213.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GND" (shape bidirectional) (at 76.2 215.9 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 26ed1813-73cd-4cce-b627-4d0a3ce4674f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 76.2 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "+3V3" (shape bidirectional) (at 76.2 218.44 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7cc74eb4-fea0-47b8-ac1f-36444ef7fab5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 76.2 218.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO7" (shape bidirectional) (at 63.5 220.98 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2c4e965c-c318-4ffc-8aa5-ab20bf8c603d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 220.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO47" (shape bidirectional) (at 63.5 223.52 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c97847b7-b054-4f75-a762-8f2425333555)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 223.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO16" (shape bidirectional) (at 63.5 264.16 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 539d88f9-465f-4419-a9e9-0810311b5636)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO17" (shape bidirectional) (at 63.5 266.7 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 330c271f-f048-4042-9247-bb08f0b0bb3b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO18" (shape bidirectional) (at 63.5 269.24 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7efb91b2-df2b-4f6f-836d-126de5b2554e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 269.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO19" (shape bidirectional) (at 63.5 271.78 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid aa52b2f7-5437-4985-b56d-66769d1e076a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 63.5 271.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO10" (shape bidirectional) (at 228.6 58.42 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8454eff6-2fb3-4a2e-90c1-d38ade4f9bac)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 228.6 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO11" (shape bidirectional) (at 228.6 60.96 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b033f0af-9691-42fd-9a53-1fbb4528f92f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 228.6 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO26" (shape bidirectional) (at 228.6 63.5 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d805064d-ae16-48c3-8303-5e8454acf013)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 228.6 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO27" (shape bidirectional) (at 228.6 66.04 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 067c08b1-7cec-4284-9d47-6be018d71a9e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 228.6 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "+3V3" (shape bidirectional) (at 241.3 68.58 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9edfd820-8e84-4a3f-a832-5d5c0ae0c31a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 241.3 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GND" (shape bidirectional) (at 241.3 71.12 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0b8ff1f5-fdb4-4641-93bd-11da701015c0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 241.3 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "+5V_SW" (shape bidirectional) (at 241.3 109.22 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a7fa81e2-e2ea-4ec7-912a-f20b20499068)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 241.3 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO28" (shape bidirectional) (at 228.6 111.76 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c8168029-15a7-47ec-8ebd-0ad833911b40)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 228.6 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO29" (shape bidirectional) (at 228.6 114.3 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 333d92de-7235-4763-bc86-3f360b9f1a29)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 228.6 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO30" (shape bidirectional) (at 228.6 116.84 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6986e59e-0d8d-4056-82d6-802e64ccb651)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 228.6 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GPIO31" (shape bidirectional) (at 228.6 119.38 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4da06e1a-4897-49e8-ae4e-813368e4882f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 228.6 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "GND" (shape bidirectional) (at 241.3 121.92 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 04a2c16c-d62a-44c8-80b2-2def6b0921c1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at 241.3 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 88.9 63.5 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 02981262-951d-414c-9e94-78b92b653e2d)
-    (property "Reference" "J1" (id 0) (at 88.9 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EdgeLock J1" (id 1) (at 88.9 73.66 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106" (id 2) (at 88.9 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 88.9 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "Molex 2008900106 (mating housing, bought separately)" (id 4) (at 88.9 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "NOTE" "board-edge pads and board cut-outs; no part on the board" (id 5) (at 88.9 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6b7ab57b-b2eb-48ef-8630-05ddae663967))
-    (pin "2" (uuid ca8d8e33-604e-445b-ac93-9e6f6759e1ff))
-    (pin "3" (uuid 76a139e6-dd7a-4bfc-9683-0c3f5deb9960))
-    (pin "4" (uuid c3c76378-f962-4b2c-a2e0-1cc72308d013))
-    (pin "5" (uuid 232503ea-9be5-4411-bad2-95dbd0feae6f))
-    (pin "6" (uuid bb81ca25-94ca-4bd4-a460-46ac7b1467b9))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 58.42 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d776b58f-265a-4475-8c79-0fb42ecd3d02)
-    (property "Reference" "R44" (id 0) (at 74.93 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 60.96 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 60.198 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 58.42 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8af61456-ccc5-47b6-8783-742f0a6b1333))
-    (pin "2" (uuid a74c6ab8-2549-4b38-a4a4-4ff41b078dbd))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R44") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 60.96 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b9927d41-827d-4901-b3c5-50c6256e4304)
-    (property "Reference" "R45" (id 0) (at 74.93 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 62.738 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 60.96 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5b4fccf1-0fcb-44d7-891f-8726fed36f2a))
-    (pin "2" (uuid 8fd87e57-ac83-42ca-8845-37ab8aafc616))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R45") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 68.58 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 30245069-98d2-456f-b16f-512021dcc530)
-    (property "Reference" "R46" (id 0) (at 74.93 66.04 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 71.12 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 70.358 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 68.58 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f0021fc4-ac4e-420a-be17-56aefece129b))
-    (pin "2" (uuid 9796103c-36af-4e43-93bd-a75b4446b1d2))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R46") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 71.12 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6277a7be-dbcb-433d-80fd-8c56ea2f8c9b)
-    (property "Reference" "R47" (id 0) (at 74.93 68.58 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 73.66 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 72.898 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 71.12 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7b34edd6-bb46-411a-a3dd-867a560f5182))
-    (pin "2" (uuid c84f74fe-4052-4607-9494-b57114bb3a7d))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R47") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 88.9 114.3 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid c6d9ea76-4e12-4244-ae9a-f143eefd9356)
-    (property "Reference" "J2" (id 0) (at 88.9 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EdgeLock J2" (id 1) (at 88.9 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106" (id 2) (at 88.9 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 88.9 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "Molex 2008900106 (mating housing, bought separately)" (id 4) (at 88.9 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "NOTE" "board-edge pads and board cut-outs; no part on the board" (id 5) (at 88.9 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a4be76ce-b5e4-47a0-9d41-bd2ea8c19411))
-    (pin "2" (uuid dc2d8545-b30d-40f5-a010-cd629c405605))
-    (pin "3" (uuid 63f2e2f6-5a67-4623-a4e5-af33064af0d5))
-    (pin "4" (uuid 34030faa-c217-4320-9807-522a5f56e4a1))
-    (pin "5" (uuid 5b01d52d-fad5-4254-957e-2f2bf6a10eaa))
-    (pin "6" (uuid 40fdf28b-565e-42a1-90d8-e98337cf42e6))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "J2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 109.22 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e2d26a83-5616-4a37-8059-a8ac88a880fd)
-    (property "Reference" "R48" (id 0) (at 74.93 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 109.22 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e7d468a3-f07b-4239-b6aa-ff459b899882))
-    (pin "2" (uuid edaae51c-297b-421b-bab1-f07f8053468e))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R48") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0a60bf93-fa32-409c-8bf4-a29d07142871)
-    (property "Reference" "R49" (id 0) (at 74.93 109.22 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 113.538 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 111.76 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5d020f63-f1e1-4773-b69f-e4b326b98d1b))
-    (pin "2" (uuid 344f7b7b-709d-4e38-b824-5ea7fb15a378))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R49") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 119.38 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8d2c1ddb-400b-4a45-bd4e-9965f31736aa)
-    (property "Reference" "R50" (id 0) (at 74.93 116.84 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 121.92 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 121.158 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 119.38 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 568f727d-9e08-4058-9059-ab44e1f09692))
-    (pin "2" (uuid 8060ca3a-ef41-47f1-92af-9c44e4294e59))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R50") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 121.92 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 59d22f44-8494-4e94-b38f-e1db06dad6b7)
-    (property "Reference" "R51" (id 0) (at 74.93 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 123.698 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 121.92 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6c277754-23f9-4d6b-a702-e84b2147e524))
-    (pin "2" (uuid d6f844be-bc9e-4afe-baaf-c2cb920d29cc))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R51") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 88.9 165.1 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 3a5a7dd1-20d4-4386-ac38-80a97d99dc79)
-    (property "Reference" "J3" (id 0) (at 88.9 157.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EdgeLock J3" (id 1) (at 88.9 175.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106" (id 2) (at 88.9 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 88.9 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "Molex 2008900106 (mating housing, bought separately)" (id 4) (at 88.9 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "NOTE" "board-edge pads and board cut-outs; no part on the board" (id 5) (at 88.9 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 34168851-f495-41e1-88bd-4561107f3bc5))
-    (pin "2" (uuid 45c76cc0-5191-48bc-968c-bc7b02fd0f9f))
-    (pin "3" (uuid 2ad68946-1055-446d-8208-b74c2cd75620))
-    (pin "4" (uuid a075f8e8-05fb-4eb8-8876-6ab907a7a6e7))
-    (pin "5" (uuid dc87661c-a5cc-45a8-bb51-3c442d6aaf63))
-    (pin "6" (uuid b291d630-d43a-49cd-b7cf-be31bce0ef7b))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "J3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 160.02 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a73555e8-89f3-4719-af84-d7a9d697a5a4)
-    (property "Reference" "R52" (id 0) (at 74.93 157.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 161.798 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 160.02 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3b4d0b75-3d28-45c1-a832-0bd0064e6bb0))
-    (pin "2" (uuid 2f75026f-cd20-4a91-8986-19c69241ffe3))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R52") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 162.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d6545fdf-c28b-48ef-883b-38605cbf5ac4)
-    (property "Reference" "R53" (id 0) (at 74.93 160.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 165.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 164.338 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 162.56 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7d715fcd-9f61-4946-b41c-18715afab989))
-    (pin "2" (uuid 6ff14b3e-07db-4851-9574-c45eb2a7db94))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R53") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 170.18 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2f2b98f6-d2da-425d-b8ac-e71b17aac26b)
-    (property "Reference" "R54" (id 0) (at 74.93 167.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 172.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 171.958 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 170.18 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6ac51d79-4dce-4d38-bf18-47415065a9bb))
-    (pin "2" (uuid 3ac3f09d-bf19-42f6-af82-ff9a740868a8))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R54") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 172.72 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid abdcb09d-48d7-4d11-9619-e0a3ef9530d7)
-    (property "Reference" "R55" (id 0) (at 74.93 170.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 175.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 174.498 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 172.72 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dac41d66-0e1d-42f8-932f-f94d071a11f2))
-    (pin "2" (uuid fe25d0ba-705b-4478-aee8-3ab73b1240a1))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R55") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 88.9 215.9 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 978201ec-4c7e-491c-bd4f-651b080ae57f)
-    (property "Reference" "J4" (id 0) (at 88.9 208.28 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EdgeLock J4" (id 1) (at 88.9 226.06 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106" (id 2) (at 88.9 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 88.9 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "Molex 2008900106 (mating housing, bought separately)" (id 4) (at 88.9 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "NOTE" "board-edge pads and board cut-outs; no part on the board" (id 5) (at 88.9 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9120a2bf-0bc6-4900-90e0-b068471bc64b))
-    (pin "2" (uuid 64a1ef30-7b05-4595-927f-437dde5bbf34))
-    (pin "3" (uuid f656b60e-2ae5-4aa6-9885-203f038a5005))
-    (pin "4" (uuid 20554e4b-917a-4461-b189-1e1d1abd3c92))
-    (pin "5" (uuid 38f5db09-af9c-4f73-af1e-50bfdde1198e))
-    (pin "6" (uuid 57a9e648-8838-4997-ada9-a78b6905cfc4))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 210.82 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7dfd162d-5a8c-4d62-b572-1b5977a93a7b)
-    (property "Reference" "R56" (id 0) (at 74.93 208.28 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 213.36 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 212.598 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 210.82 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 208.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 208.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f46aede3-ed2f-43e8-9e6e-087b72b13996))
-    (pin "2" (uuid 391b17db-8e3f-4709-b744-98b3d03404ed))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R56") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 213.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e55708d8-c9e8-4265-afea-6de8b682d620)
-    (property "Reference" "R57" (id 0) (at 74.93 210.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 215.9 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 215.138 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 213.36 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 210.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 210.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid da8dc3e4-2d0f-453d-b544-167b315595c6))
-    (pin "2" (uuid ee71e659-5641-4991-86d1-f3baa427bbfb))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R57") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 220.98 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 09b302fe-b27e-4966-9435-556a3bce74f0)
-    (property "Reference" "R58" (id 0) (at 74.93 218.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 223.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 222.758 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 220.98 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 218.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 218.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e40e639b-e58b-471f-afcf-56fe6bd997bf))
-    (pin "2" (uuid 9865f32d-73cd-44d8-a4f5-42afe3bb389f))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R58") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 223.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 76b1c3e7-dc7e-40b8-8119-5614874c761b)
-    (property "Reference" "R59" (id 0) (at 74.93 220.98 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 226.06 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 225.298 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 223.52 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 220.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 220.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 002d9aee-5e8b-4e29-a26f-015f15597761))
-    (pin "2" (uuid a4a40edd-1248-414c-b0b1-06c9996edeee))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R59") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 88.9 266.7 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 8139de83-5e69-4b22-b097-c862d5f54f13)
-    (property "Reference" "J5" (id 0) (at 88.9 261.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EdgeLock J5" (id 1) (at 88.9 274.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "picomondo:EdgeLock_4ckt_Molex2008900104" (id 2) (at 88.9 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 88.9 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "Molex 2008900104 (mating housing, bought separately)" (id 4) (at 88.9 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "NOTE" "board-edge pads and board cut-outs; no part on the board" (id 5) (at 88.9 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 84e7e85d-983a-4bea-a853-9e712437523d))
-    (pin "2" (uuid 53fb2e24-c72f-43cb-bd43-a10937be1951))
-    (pin "3" (uuid 8b5752a7-d17a-458a-b536-2f4d6a6c0998))
-    (pin "4" (uuid 243f60d1-a7f9-48e4-97c2-5fbbe2abe9d0))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "J5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 264.16 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 709da4b8-da97-423b-b0b8-0bd315034c8f)
-    (property "Reference" "R60" (id 0) (at 74.93 261.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 266.7 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 265.938 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 264.16 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 261.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 261.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 60b77240-debb-4586-b1e6-48e6e7fb2301))
-    (pin "2" (uuid 18104a5c-c559-433a-8072-9d3c63ec0a2b))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R60") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 266.7 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3e1f2941-a1e5-444b-9226-82132be47866)
-    (property "Reference" "R61" (id 0) (at 74.93 264.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 269.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 268.478 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 266.7 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 31509ef6-fe21-44e5-abaa-8d6ca3b530e7))
-    (pin "2" (uuid 0b107529-6ee6-48b7-9a8b-f67c0280dfa1))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R61") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 269.24 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 86e0c6c1-f596-455f-b118-0300a64ab03b)
-    (property "Reference" "R62" (id 0) (at 74.93 266.7 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 271.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 271.018 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 269.24 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 128b9325-d5df-42cf-8e34-185cbbfc85bb))
-    (pin "2" (uuid 4292e3bd-8687-409f-b595-eb88bbbd3c92))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R62") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 74.93 271.78 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 558234a8-3ab6-41e5-8aef-de6d216e9e91)
-    (property "Reference" "R63" (id 0) (at 74.93 269.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 74.93 274.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 74.93 273.558 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 74.93 271.78 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 74.93 269.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 74.93 269.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid afe68f0d-3352-4752-9942-dca185cbe2a9))
-    (pin "2" (uuid d697db96-0b1b-4419-a371-8a946fff84b8))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R63") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 254 63.5 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 18ab4959-2b3b-410e-a178-b59640eaa1bc)
-    (property "Reference" "J6" (id 0) (at 254 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EdgeLock J6" (id 1) (at 254 73.66 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106" (id 2) (at 254 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 254 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "Molex 2008900106 (mating housing, bought separately)" (id 4) (at 254 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "NOTE" "board-edge pads and board cut-outs; no part on the board" (id 5) (at 254 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 31b541ff-a64a-470e-96e4-ba2996fca093))
-    (pin "2" (uuid 4ff38be9-b0f2-43df-b16c-c4087d178000))
-    (pin "3" (uuid 969e3b00-2081-464a-bd9e-379f81b13e17))
-    (pin "4" (uuid 568a820d-f4fd-489b-b002-71029c2d5e85))
-    (pin "5" (uuid 2fa757ea-e707-4c6c-8311-3f100dd790d1))
-    (pin "6" (uuid bb569649-b291-4601-ad91-c2c3b7916fbc))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "J6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 240.03 58.42 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8b966e0e-9120-42bd-9112-f2f20c2f7846)
-    (property "Reference" "R64" (id 0) (at 240.03 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 240.03 60.96 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 240.03 60.198 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 240.03 58.42 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 240.03 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 240.03 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b73dea54-1942-4000-aa8c-91aa61cc50bc))
-    (pin "2" (uuid 4065c63a-ea1a-4dca-a053-e4f655f39743))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R64") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 240.03 60.96 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fb0e22c0-cf62-4a69-9913-3a7c95fea376)
-    (property "Reference" "R65" (id 0) (at 240.03 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 240.03 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 240.03 62.738 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 240.03 60.96 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 240.03 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 240.03 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 67e627e7-6fe3-47f7-8e1e-b4ea2a7b626d))
-    (pin "2" (uuid ba01002f-7e14-4741-951c-0a816546bfc4))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R65") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 240.03 63.5 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 687f7f8f-80d8-4846-895b-4211c2e711f8)
-    (property "Reference" "R66" (id 0) (at 240.03 60.96 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 240.03 66.04 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 240.03 65.278 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 240.03 63.5 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 240.03 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 240.03 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e8691bf7-3065-4acd-81cf-7dac69ae4e51))
-    (pin "2" (uuid 2b6859fb-9ad7-41e9-92c1-4611951a95d5))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R66") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 240.03 66.04 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 47a7a442-c0b5-4b1c-aa7a-ffe6bfc921e7)
-    (property "Reference" "R67" (id 0) (at 240.03 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 240.03 68.58 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 240.03 67.818 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 240.03 66.04 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 240.03 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 240.03 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 18f3e2b0-5e8c-4127-852c-ef7155332a3d))
-    (pin "2" (uuid 52945ce7-0494-49d3-b573-d8b8667717e3))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R67") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 254 114.3 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid d7cd6f85-8fe2-4259-a5c6-1fc32e0903b2)
-    (property "Reference" "J9" (id 0) (at 254 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EdgeLock J9" (id 1) (at 254 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106" (id 2) (at 254 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 254 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "Molex 2008900106 (mating housing, bought separately)" (id 4) (at 254 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "NOTE" "board-edge pads and board cut-outs; no part on the board" (id 5) (at 254 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a3c9f80c-91ec-40c1-8807-8f4d7fc6d948))
-    (pin "2" (uuid 0f92106f-0224-4ffc-a5ce-a969c60734c0))
-    (pin "3" (uuid 85bd861c-84ce-4355-a20d-1079ab4667e8))
-    (pin "4" (uuid 1ab925fc-3424-4df2-9f78-97c3259b3f51))
-    (pin "5" (uuid 8efbe7c4-af01-4496-861f-a9a659226b7e))
-    (pin "6" (uuid 13ee5602-9967-4d70-b1b0-a6c54ea8fade))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "J9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 240.03 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 464f7d44-9d49-435c-9831-1ba5bec0ae73)
-    (property "Reference" "R68" (id 0) (at 240.03 109.22 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 240.03 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 240.03 113.538 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 240.03 111.76 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 240.03 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 240.03 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 52fe194d-ed9c-44d6-a462-0863547112b8))
-    (pin "2" (uuid bbc0a4c6-5d1e-4b15-9df5-ffee2fbfb796))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R68") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 240.03 114.3 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d50d3739-40c4-4133-9c24-e48a07a23b30)
-    (property "Reference" "R69" (id 0) (at 240.03 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 240.03 116.84 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 240.03 116.078 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 240.03 114.3 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 240.03 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 240.03 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ab65981a-8375-4ad6-8862-e1378a00eeb9))
-    (pin "2" (uuid 185de63f-e866-47d3-bc48-226d062b384c))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R69") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 240.03 116.84 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0753ddcb-367a-4f25-800c-a18a8a6e1901)
-    (property "Reference" "R70" (id 0) (at 240.03 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 240.03 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 240.03 118.618 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 240.03 116.84 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 240.03 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 240.03 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 50a1e36f-d890-445a-bf10-03868a88abc7))
-    (pin "2" (uuid 27b2edb6-f397-47a1-8665-77fef6d26d69))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R70") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 240.03 119.38 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a0f1eb3b-9601-4c89-b756-cdaa50d9d940)
-    (property "Reference" "R71" (id 0) (at 240.03 116.84 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (id 1) (at 240.03 121.92 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 240.03 121.158 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 240.03 119.38 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25076" (id 4) (at 240.03 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1000TCE" (id 5) (at 240.03 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ba793c48-a834-402a-9d8a-f5909742ba3f))
-    (pin "2" (uuid 24b96903-949a-408a-ae39-ac2da49ed513))
-    (instances
-      (project "picomondo"
-        (path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
-          (reference "R71") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9f5d7ea2-dea6-48fa-9cfe-5645d6652fa5")
+	(paper "A2")
+	(title_block
+		(title "EdgeLock connectors")
+		(date "2026-10-01")
+		(rev "1")
+		(company "PicoMondo")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "J3: joystick-ready. GPIO44/45 are ADC4 / ADC5."
+		(exclude_from_sim no)
+		(at 50.8 147.32 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "089fdb09-bd08-4b70-af1d-e09db66ff2a3")
+	)
+	(text "J2: joystick-ready. GPIO42/43 are ADC2 / ADC3."
+		(exclude_from_sim no)
+		(at 50.8 96.52 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "24010967-e5b1-4749-abf6-b19635281806")
+	)
+	(text "J6: UART1 (TX, RX) plus enable and IRQ lines, for serial modules."
+		(exclude_from_sim no)
+		(at 215.9 45.72 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "4124daac-e4c7-4324-bdc5-9403c5cff142")
+	)
+	(text "J9: servo / motor connector: switched 5 V (GPIO24), four PWM-capable GPIOs."
+		(exclude_from_sim no)
+		(at 215.9 96.52 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "8aab01b7-c60b-49b9-958a-465c344bfcff")
+	)
+	(text "J4: joystick-ready. GPIO46/47 are ADC6 / ADC7."
+		(exclude_from_sim no)
+		(at 50.8 198.12 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "8ae0713e-81ca-4fc2-9779-a62e2a5e4d72")
+	)
+	(text "J5: SPI0 (MISO, CS, SCK, MOSI), shared with the Arduino header."
+		(exclude_from_sim no)
+		(at 50.8 248.92 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "c019dda4-213d-46ae-9d24-ab9b79eec2d5")
+	)
+	(text "Pins 1-2 and 5-6 of the 6-pin connectors carry signals; the 100 ohm series resistors protect the MCU\nfrom user wiring. Indicator LEDs are on the next sheet. These connectors share GPIOs with the Arduino\nand Pico headers: use one accessory class at a time."
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "e07f38f9-cd85-47ca-9895-483448267395")
+	)
+	(text "J1: joystick-ready. GPIO0 and GPIO1 are also UART0 TX / RX; GPIO40/41 are ADC0 / ADC1."
+		(exclude_from_sim no)
+		(at 50.8 45.72 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "fee1c061-41a1-490c-8a53-9511f412fe94")
+	)
+	(wire
+		(pts
+			(xy 71.12 111.76) (xy 63.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cc0825-c9f3-4799-8d22-b78d9ea83b35")
+	)
+	(wire
+		(pts
+			(xy 236.22 60.96) (xy 228.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05638c6f-c257-47ac-8f68-38c03bbcfe93")
+	)
+	(wire
+		(pts
+			(xy 236.22 66.04) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0844cfef-c33a-4dc3-ab68-f23dbf49fe20")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09062cd6-b6e1-4f0c-941c-79d58b0bbea0")
+	)
+	(wire
+		(pts
+			(xy 78.74 213.36) (xy 83.82 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bdb9f5-ba7c-452a-a064-73be046ebc7f")
+	)
+	(wire
+		(pts
+			(xy 236.22 58.42) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0faa9ccb-9e5f-4a04-9f57-012e7cc72965")
+	)
+	(wire
+		(pts
+			(xy 71.12 269.24) (xy 63.5 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1061ec63-dabc-4243-b856-487fa2b1506d")
+	)
+	(wire
+		(pts
+			(xy 236.22 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11635147-78bc-402c-a535-75864b90b963")
+	)
+	(wire
+		(pts
+			(xy 243.84 114.3) (xy 248.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13398fe4-2485-462b-8f50-f3c2a5bf32ad")
+	)
+	(wire
+		(pts
+			(xy 243.84 116.84) (xy 248.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d750cd-bc55-4e40-9de3-474416f416cd")
+	)
+	(wire
+		(pts
+			(xy 71.12 264.16) (xy 63.5 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e68834c-18ae-4da9-81f3-566be3cdb674")
+	)
+	(wire
+		(pts
+			(xy 71.12 271.78) (xy 63.5 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20654b9d-fbb2-4009-a09f-b4c17c6c318d")
+	)
+	(wire
+		(pts
+			(xy 83.82 114.3) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213cfe96-a6aa-4a29-b380-70c897a4df89")
+	)
+	(wire
+		(pts
+			(xy 243.84 58.42) (xy 248.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271f7674-3c06-413a-b607-5c76b3a9cb22")
+	)
+	(wire
+		(pts
+			(xy 248.92 68.58) (xy 227.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cd95e5-e757-4971-876a-89a4f3439ca2")
+	)
+	(wire
+		(pts
+			(xy 243.84 60.96) (xy 248.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c28a9ae-97f0-4320-85a9-0acdef3f36f0")
+	)
+	(wire
+		(pts
+			(xy 71.12 172.72) (xy 63.5 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd0a163-acad-4680-8a9f-fa5d333f5971")
+	)
+	(wire
+		(pts
+			(xy 71.12 170.18) (xy 63.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c05876-3260-4af6-8ec7-4cb6b6729404")
+	)
+	(wire
+		(pts
+			(xy 236.22 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37aad3a5-0947-41dc-8c16-e54c0a935254")
+	)
+	(wire
+		(pts
+			(xy 78.74 172.72) (xy 83.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e40a64-1d3c-4648-abf4-64771b900dbd")
+	)
+	(wire
+		(pts
+			(xy 71.12 210.82) (xy 63.5 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381924a2-98d0-4530-b9b7-a49ecfe64d86")
+	)
+	(wire
+		(pts
+			(xy 83.82 215.9) (xy 63.5 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3915d20b-11ee-49dc-9a2c-975719596468")
+	)
+	(wire
+		(pts
+			(xy 236.22 63.5) (xy 228.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8c729c-5114-48e5-92b1-9229082ae49d")
+	)
+	(wire
+		(pts
+			(xy 71.12 109.22) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6ea297-2fc6-43ff-a2c3-595b77a11396")
+	)
+	(wire
+		(pts
+			(xy 78.74 266.7) (xy 83.82 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d63ae1a-2f38-4757-b886-4c9296c78eae")
+	)
+	(wire
+		(pts
+			(xy 71.12 223.52) (xy 63.5 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40573c83-1291-4130-b65d-6a68e7b89e8b")
+	)
+	(wire
+		(pts
+			(xy 83.82 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c60036-d989-414d-a36d-c30d96419db0")
+	)
+	(wire
+		(pts
+			(xy 83.82 165.1) (xy 62.23 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df41afd-65ed-4dd4-9138-ad18156bd226")
+	)
+	(wire
+		(pts
+			(xy 243.84 66.04) (xy 248.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b8a093-182c-43cc-869a-ff3f5ce6876f")
+	)
+	(wire
+		(pts
+			(xy 78.74 220.98) (xy 83.82 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566283f3-d19d-401b-bc12-99ec76eea12a")
+	)
+	(wire
+		(pts
+			(xy 248.92 109.22) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd818b0-e1e1-4001-8867-2f5caf9e034f")
+	)
+	(wire
+		(pts
+			(xy 78.74 170.18) (xy 83.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e117ce-3c05-4fed-9326-4baf54a3f8cb")
+	)
+	(wire
+		(pts
+			(xy 248.92 121.92) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694704c2-039b-43f6-809f-29fa13fc308e")
+	)
+	(wire
+		(pts
+			(xy 78.74 160.02) (xy 83.82 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d17b527-88a0-47a3-b113-f9fd65a9e296")
+	)
+	(wire
+		(pts
+			(xy 243.84 63.5) (xy 248.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df188af-158b-4774-bf66-9e3f30afb08d")
+	)
+	(wire
+		(pts
+			(xy 78.74 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70698d49-a157-4d17-a5ff-ac9a59e387c0")
+	)
+	(wire
+		(pts
+			(xy 83.82 66.04) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef04f3e-22db-44a9-a825-81955e9ac9b3")
+	)
+	(wire
+		(pts
+			(xy 71.12 266.7) (xy 63.5 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8d2ad0-21b3-43bb-a0c8-88534100ba28")
+	)
+	(wire
+		(pts
+			(xy 78.74 223.52) (xy 83.82 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88efe100-6db8-4ea8-b937-b0d3325c34ea")
+	)
+	(wire
+		(pts
+			(xy 71.12 160.02) (xy 63.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5533e6-8156-4238-8e3e-55d7d7811f16")
+	)
+	(wire
+		(pts
+			(xy 243.84 119.38) (xy 248.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d145a7c-f0e1-4824-b686-0db154655000")
+	)
+	(wire
+		(pts
+			(xy 83.82 167.64) (xy 62.23 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ee1bbd-45fa-4dc1-82fc-3297cf563968")
+	)
+	(wire
+		(pts
+			(xy 78.74 210.82) (xy 83.82 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955778f2-27e8-432c-a406-33f7e1698f80")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 63.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964a2a94-5bca-4b4d-97c9-c820128dba05")
+	)
+	(wire
+		(pts
+			(xy 71.12 71.12) (xy 63.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c45851-827e-4c2f-9adb-2abcda6e479d")
+	)
+	(wire
+		(pts
+			(xy 78.74 271.78) (xy 83.82 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1098bc-dc64-4e54-a328-87945ddf1725")
+	)
+	(wire
+		(pts
+			(xy 71.12 220.98) (xy 63.5 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d3cab4-664a-4cb3-9a13-ee3ebe27ee7e")
+	)
+	(wire
+		(pts
+			(xy 78.74 109.22) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2db5645-8755-4dcd-9fd9-83155b583c26")
+	)
+	(wire
+		(pts
+			(xy 243.84 111.76) (xy 248.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ed4390-1523-487c-8c4f-b095804b59ab")
+	)
+	(wire
+		(pts
+			(xy 71.12 213.36) (xy 63.5 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becf1c8c-7858-4f8f-a1d6-2456a6ed5275")
+	)
+	(wire
+		(pts
+			(xy 78.74 119.38) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bede45ed-dd50-4c2c-80c3-8ff2d7f55306")
+	)
+	(wire
+		(pts
+			(xy 78.74 121.92) (xy 83.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29b28ea-a3bc-4cc3-b130-380be8d2cf1d")
+	)
+	(wire
+		(pts
+			(xy 71.12 162.56) (xy 63.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c568a522-6500-4854-8e63-a5e66dac4be6")
+	)
+	(wire
+		(pts
+			(xy 71.12 119.38) (xy 63.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c650e3e3-7345-41f4-901c-0b5fe8717a3e")
+	)
+	(wire
+		(pts
+			(xy 78.74 162.56) (xy 83.82 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc92c8ce-a0d4-4ebe-9f87-5dbd76374a00")
+	)
+	(wire
+		(pts
+			(xy 78.74 269.24) (xy 83.82 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefd0523-e244-417e-b640-222ee34176fa")
+	)
+	(wire
+		(pts
+			(xy 78.74 71.12) (xy 83.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97c95fb-1c0a-42e8-87bc-c0b452457c75")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de76676b-976e-444b-b04c-7d635b3c66c1")
+	)
+	(wire
+		(pts
+			(xy 78.74 58.42) (xy 83.82 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def6d4c9-d88a-4c36-b333-b3a6d3a8fcf5")
+	)
+	(wire
+		(pts
+			(xy 71.12 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22c0ce2-9437-4520-9bb5-a4b2ef4d82f3")
+	)
+	(wire
+		(pts
+			(xy 78.74 111.76) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e376a5e5-2e6d-4121-9334-7d8c7f605293")
+	)
+	(wire
+		(pts
+			(xy 236.22 119.38) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47c0f4a-e589-4852-b2e6-8aec484b8fcd")
+	)
+	(wire
+		(pts
+			(xy 83.82 218.44) (xy 63.5 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7981085-1c08-420c-b8e6-c530732faf3e")
+	)
+	(wire
+		(pts
+			(xy 78.74 264.16) (xy 83.82 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf46513-faef-4df7-aabf-a643672317f8")
+	)
+	(wire
+		(pts
+			(xy 71.12 121.92) (xy 63.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2abc55-1fb0-4015-a95d-9f9756f372d2")
+	)
+	(wire
+		(pts
+			(xy 83.82 63.5) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cb7ae3-fcdc-4ae3-86a9-0c361567ffc8")
+	)
+	(wire
+		(pts
+			(xy 236.22 116.84) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa539034-6a55-493b-b035-42d2f2dc2d44")
+	)
+	(wire
+		(pts
+			(xy 248.92 71.12) (xy 227.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb8f2bc-d5b1-4094-bfc6-0aea7a4181d8")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 228.6 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04a2c16c-d62a-44c8-80b2-2def6b0921c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO27"
+		(shape bidirectional)
+		(at 228.6 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "067c08b1-7cec-4284-9d47-6be018d71a9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape bidirectional)
+		(at 63.5 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07b6dcc1-bf98-4341-83fc-b213a377de28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO6"
+		(shape bidirectional)
+		(at 63.5 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07eba3b1-4f70-4e33-8de0-8e25ff101f81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 227.33 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b8ff1f5-fdb4-4641-93bd-11da701015c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO45"
+		(shape bidirectional)
+		(at 63.5 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e9bf234-867f-416b-9645-c09b64c8a42a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 71.12 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12a0c2af-6eba-4b45-9e1a-0e47cefc369e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO40"
+		(shape bidirectional)
+		(at 63.5 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2568ff2b-bf27-492d-96ee-cb2d8cc47f2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 63.5 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26ed1813-73cd-4cce-b627-4d0a3ce4674f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO7"
+		(shape bidirectional)
+		(at 63.5 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c4e965c-c318-4ffc-8aa5-ab20bf8c603d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO17"
+		(shape bidirectional)
+		(at 63.5 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "330c271f-f048-4042-9247-bb08f0b0bb3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO29"
+		(shape bidirectional)
+		(at 228.6 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "333d92de-7235-4763-bc86-3f360b9f1a29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 69.85 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39f5f2ec-166e-4854-a561-2ec478ea4545")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 62.23 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49e2f7b0-3a05-427d-8d65-7a5c6d049bb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO43"
+		(shape bidirectional)
+		(at 63.5 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b39f278-a9b6-4884-b2dd-a9ac6312583f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO31"
+		(shape bidirectional)
+		(at 228.6 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4da06e1a-4897-49e8-ae4e-813368e4882f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO16"
+		(shape bidirectional)
+		(at 63.5 264.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "539d88f9-465f-4419-a9e9-0810311b5636")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO30"
+		(shape bidirectional)
+		(at 228.6 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6986e59e-0d8d-4056-82d6-802e64ccb651")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 63.5 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cc74eb4-fea0-47b8-ac1f-36444ef7fab5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO18"
+		(shape bidirectional)
+		(at 63.5 269.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7efb91b2-df2b-4f6f-836d-126de5b2554e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO10"
+		(shape bidirectional)
+		(at 228.6 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8454eff6-2fb3-4a2e-90c1-d38ade4f9bac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 71.12 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8afe89a9-bcbb-45ad-a084-f68d6a655743")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 62.23 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bebe262-3b4b-4343-aa2d-e53eeb65550f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 227.33 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9edfd820-8e84-4a3f-a832-5d5c0ae0c31a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+5V_SW"
+		(shape bidirectional)
+		(at 228.6 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7fa81e2-e2ea-4ec7-912a-f20b20499068")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO19"
+		(shape bidirectional)
+		(at 63.5 271.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa52b2f7-5437-4985-b56d-66769d1e076a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO5"
+		(shape bidirectional)
+		(at 63.5 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aadf1aba-cef1-40a6-b5f9-3ad18238964e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO11"
+		(shape bidirectional)
+		(at 228.6 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b033f0af-9691-42fd-9a53-1fbb4528f92f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO42"
+		(shape bidirectional)
+		(at 63.5 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0651f38-9d8a-430b-a564-36ba93187523")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO3"
+		(shape bidirectional)
+		(at 63.5 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4a6d86d-1eb5-4cbe-840e-ab77af09f409")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO28"
+		(shape bidirectional)
+		(at 228.6 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8168029-15a7-47ec-8ebd-0ad833911b40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO47"
+		(shape bidirectional)
+		(at 63.5 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c97847b7-b054-4f75-a762-8f2425333555")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO44"
+		(shape bidirectional)
+		(at 63.5 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfbe70a7-b615-486a-8214-3551ff5fe8fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO41"
+		(shape bidirectional)
+		(at 63.5 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d30736dc-f512-4866-8700-129cdf31ffcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO2"
+		(shape bidirectional)
+		(at 63.5 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d662492d-bbf6-4ac4-939c-1de712598b42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO26"
+		(shape bidirectional)
+		(at 228.6 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d805064d-ae16-48c3-8303-5e8454acf013")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO1"
+		(shape bidirectional)
+		(at 63.5 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de7a1b63-12fb-4b69-b3eb-10609a1bbfaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 69.85 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec9cb1d4-d390-40b5-8afe-d0a4a59ca7fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO46"
+		(shape bidirectional)
+		(at 63.5 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f564bcbb-b4d8-4f51-a662-07dea5bdead4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GPIO4"
+		(shape bidirectional)
+		(at 63.5 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb9db3d9-05aa-476e-9478-aecb546df4d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 88.9 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02981262-951d-414c-9e94-78b92b653e2d")
+		(property "Reference" "J1"
+			(at 88.9 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EdgeLock J1"
+			(at 88.9 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106"
+			(at 88.9 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Molex 2008900106 (mating housing, bought separately)"
+			(at 88.9 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "board-edge pads and board cut-outs; no part on the board"
+			(at 88.9 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b7ab57b-b2eb-48ef-8630-05ddae663967")
+		)
+		(pin "2"
+			(uuid "ca8d8e33-604e-445b-ac93-9e6f6759e1ff")
+		)
+		(pin "3"
+			(uuid "76a139e6-dd7a-4bfc-9683-0c3f5deb9960")
+		)
+		(pin "4"
+			(uuid "c3c76378-f962-4b2c-a2e0-1cc72308d013")
+		)
+		(pin "5"
+			(uuid "232503ea-9be5-4411-bad2-95dbd0feae6f")
+		)
+		(pin "6"
+			(uuid "bb81ca25-94ca-4bd4-a460-46ac7b1467b9")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0753ddcb-367a-4f25-800c-a18a8a6e1901")
+		(property "Reference" "R70"
+			(at 240.03 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 240.03 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 240.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 240.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50a1e36f-d890-445a-bf10-03868a88abc7")
+		)
+		(pin "2"
+			(uuid "27b2edb6-f397-47a1-8665-77fef6d26d69")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 220.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09b302fe-b27e-4966-9435-556a3bce74f0")
+		(property "Reference" "R58"
+			(at 74.93 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 222.758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e40e639b-e58b-471f-afcf-56fe6bd997bf")
+		)
+		(pin "2"
+			(uuid "9865f32d-73cd-44d8-a4f5-42afe3bb389f")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a60bf93-fa32-409c-8bf4-a29d07142871")
+		(property "Reference" "R49"
+			(at 74.93 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 113.538 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d020f63-f1e1-4773-b69f-e4b326b98d1b")
+		)
+		(pin "2"
+			(uuid "344f7b7b-709d-4e38-b824-5ea7fb15a378")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 254 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18ab4959-2b3b-410e-a178-b59640eaa1bc")
+		(property "Reference" "J6"
+			(at 254 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EdgeLock J6"
+			(at 254 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106"
+			(at 254 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Molex 2008900106 (mating housing, bought separately)"
+			(at 254 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "board-edge pads and board cut-outs; no part on the board"
+			(at 254 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31b541ff-a64a-470e-96e4-ba2996fca093")
+		)
+		(pin "2"
+			(uuid "4ff38be9-b0f2-43df-b16c-c4087d178000")
+		)
+		(pin "3"
+			(uuid "969e3b00-2081-464a-bd9e-379f81b13e17")
+		)
+		(pin "4"
+			(uuid "568a820d-f4fd-489b-b002-71029c2d5e85")
+		)
+		(pin "5"
+			(uuid "2fa757ea-e707-4c6c-8311-3f100dd790d1")
+		)
+		(pin "6"
+			(uuid "bb569649-b291-4601-ad91-c2c3b7916fbc")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f2b98f6-d2da-425d-b8ac-e71b17aac26b")
+		(property "Reference" "R54"
+			(at 74.93 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 171.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ac51d79-4dce-4d38-bf18-47415065a9bb")
+		)
+		(pin "2"
+			(uuid "3ac3f09d-bf19-42f6-af82-ff9a740868a8")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30245069-98d2-456f-b16f-512021dcc530")
+		(property "Reference" "R46"
+			(at 74.93 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 70.358 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0021fc4-ac4e-420a-be17-56aefece129b")
+		)
+		(pin "2"
+			(uuid "9796103c-36af-4e43-93bd-a75b4446b1d2")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 88.9 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a5a7dd1-20d4-4386-ac38-80a97d99dc79")
+		(property "Reference" "J3"
+			(at 88.9 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EdgeLock J3"
+			(at 88.9 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106"
+			(at 88.9 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Molex 2008900106 (mating housing, bought separately)"
+			(at 88.9 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "board-edge pads and board cut-outs; no part on the board"
+			(at 88.9 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34168851-f495-41e1-88bd-4561107f3bc5")
+		)
+		(pin "2"
+			(uuid "45c76cc0-5191-48bc-968c-bc7b02fd0f9f")
+		)
+		(pin "3"
+			(uuid "2ad68946-1055-446d-8208-b74c2cd75620")
+		)
+		(pin "4"
+			(uuid "a075f8e8-05fb-4eb8-8876-6ab907a7a6e7")
+		)
+		(pin "5"
+			(uuid "dc87661c-a5cc-45a8-bb51-3c442d6aaf63")
+		)
+		(pin "6"
+			(uuid "b291d630-d43a-49cd-b7cf-be31bce0ef7b")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 266.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e1f2941-a1e5-444b-9226-82132be47866")
+		(property "Reference" "R61"
+			(at 74.93 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 268.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 266.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31509ef6-fe21-44e5-abaa-8d6ca3b530e7")
+		)
+		(pin "2"
+			(uuid "0b107529-6ee6-48b7-9a8b-f67c0280dfa1")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "464f7d44-9d49-435c-9831-1ba5bec0ae73")
+		(property "Reference" "R68"
+			(at 240.03 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 240.03 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 113.538 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 240.03 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 240.03 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52fe194d-ed9c-44d6-a462-0863547112b8")
+		)
+		(pin "2"
+			(uuid "bbc0a4c6-5d1e-4b15-9df5-ffee2fbfb796")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47a7a442-c0b5-4b1c-aa7a-ffe6bfc921e7")
+		(property "Reference" "R67"
+			(at 240.03 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 240.03 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 67.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 240.03 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 240.03 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18f3e2b0-5e8c-4127-852c-ef7155332a3d")
+		)
+		(pin "2"
+			(uuid "52945ce7-0494-49d3-b573-d8b8667717e3")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 271.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "558234a8-3ab6-41e5-8aef-de6d216e9e91")
+		(property "Reference" "R63"
+			(at 74.93 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 273.558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 271.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afe68f0d-3352-4752-9942-dca185cbe2a9")
+		)
+		(pin "2"
+			(uuid "d697db96-0b1b-4419-a371-8a946fff84b8")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59d22f44-8494-4e94-b38f-e1db06dad6b7")
+		(property "Reference" "R51"
+			(at 74.93 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 123.698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c277754-23f9-4d6b-a702-e84b2147e524")
+		)
+		(pin "2"
+			(uuid "d6f844be-bc9e-4afe-baaf-c2cb920d29cc")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6277a7be-dbcb-433d-80fd-8c56ea2f8c9b")
+		(property "Reference" "R47"
+			(at 74.93 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b34edd6-bb46-411a-a3dd-867a560f5182")
+		)
+		(pin "2"
+			(uuid "c84f74fe-4052-4607-9494-b57114bb3a7d")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "687f7f8f-80d8-4846-895b-4211c2e711f8")
+		(property "Reference" "R66"
+			(at 240.03 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 240.03 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 240.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 240.03 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8691bf7-3065-4acd-81cf-7dac69ae4e51")
+		)
+		(pin "2"
+			(uuid "2b6859fb-9ad7-41e9-92c1-4611951a95d5")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 264.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "709da4b8-da97-423b-b0b8-0bd315034c8f")
+		(property "Reference" "R60"
+			(at 74.93 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 265.938 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 264.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60b77240-debb-4586-b1e6-48e6e7fb2301")
+		)
+		(pin "2"
+			(uuid "18104a5c-c559-433a-8072-9d3c63ec0a2b")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 223.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76b1c3e7-dc7e-40b8-8119-5614874c761b")
+		(property "Reference" "R59"
+			(at 74.93 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 225.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "002d9aee-5e8b-4e29-a26f-015f15597761")
+		)
+		(pin "2"
+			(uuid "a4a40edd-1248-414c-b0b1-06c9996edeee")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 210.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7dfd162d-5a8c-4d62-b572-1b5977a93a7b")
+		(property "Reference" "R56"
+			(at 74.93 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 212.598 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f46aede3-ed2f-43e8-9e6e-087b72b13996")
+		)
+		(pin "2"
+			(uuid "391b17db-8e3f-4709-b744-98b3d03404ed")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 88.9 266.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8139de83-5e69-4b22-b097-c862d5f54f13")
+		(property "Reference" "J5"
+			(at 88.9 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EdgeLock J5"
+			(at 88.9 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picomondo:EdgeLock_4ckt_Molex2008900104"
+			(at 88.9 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Molex 2008900104 (mating housing, bought separately)"
+			(at 88.9 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "board-edge pads and board cut-outs; no part on the board"
+			(at 88.9 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84e7e85d-983a-4bea-a853-9e712437523d")
+		)
+		(pin "2"
+			(uuid "53fb2e24-c72f-43cb-bd43-a10937be1951")
+		)
+		(pin "3"
+			(uuid "8b5752a7-d17a-458a-b536-2f4d6a6c0998")
+		)
+		(pin "4"
+			(uuid "243f60d1-a7f9-48e4-97c2-5fbbe2abe9d0")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 269.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86e0c6c1-f596-455f-b118-0300a64ab03b")
+		(property "Reference" "R62"
+			(at 74.93 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 271.018 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "128b9325-d5df-42cf-8e34-185cbbfc85bb")
+		)
+		(pin "2"
+			(uuid "4292e3bd-8687-409f-b595-eb88bbbd3c92")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b966e0e-9120-42bd-9112-f2f20c2f7846")
+		(property "Reference" "R64"
+			(at 240.03 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 240.03 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b73dea54-1942-4000-aa8c-91aa61cc50bc")
+		)
+		(pin "2"
+			(uuid "4065c63a-ea1a-4dca-a053-e4f655f39743")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d2c1ddb-400b-4a45-bd4e-9965f31736aa")
+		(property "Reference" "R50"
+			(at 74.93 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "568f727d-9e08-4058-9059-ab44e1f09692")
+		)
+		(pin "2"
+			(uuid "8060ca3a-ef41-47f1-92af-9c44e4294e59")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 88.9 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "978201ec-4c7e-491c-bd4f-651b080ae57f")
+		(property "Reference" "J4"
+			(at 88.9 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EdgeLock J4"
+			(at 88.9 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106"
+			(at 88.9 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Molex 2008900106 (mating housing, bought separately)"
+			(at 88.9 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "board-edge pads and board cut-outs; no part on the board"
+			(at 88.9 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9120a2bf-0bc6-4900-90e0-b068471bc64b")
+		)
+		(pin "2"
+			(uuid "64a1ef30-7b05-4595-927f-437dde5bbf34")
+		)
+		(pin "3"
+			(uuid "f656b60e-2ae5-4aa6-9885-203f038a5005")
+		)
+		(pin "4"
+			(uuid "20554e4b-917a-4461-b189-1e1d1abd3c92")
+		)
+		(pin "5"
+			(uuid "38f5db09-af9c-4f73-af1e-50bfdde1198e")
+		)
+		(pin "6"
+			(uuid "57a9e648-8838-4997-ada9-a78b6905cfc4")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0f1eb3b-9601-4c89-b756-cdaa50d9d940")
+		(property "Reference" "R71"
+			(at 240.03 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 240.03 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 240.03 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 240.03 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba793c48-a834-402a-9d8a-f5909742ba3f")
+		)
+		(pin "2"
+			(uuid "24b96903-949a-408a-ae39-ac2da49ed513")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a73555e8-89f3-4719-af84-d7a9d697a5a4")
+		(property "Reference" "R52"
+			(at 74.93 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 161.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b4d0b75-3d28-45c1-a832-0bd0064e6bb0")
+		)
+		(pin "2"
+			(uuid "2f75026f-cd20-4a91-8986-19c69241ffe3")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abdcb09d-48d7-4d11-9619-e0a3ef9530d7")
+		(property "Reference" "R55"
+			(at 74.93 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 174.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dac41d66-0e1d-42f8-932f-f94d071a11f2")
+		)
+		(pin "2"
+			(uuid "fe25d0ba-705b-4478-aee8-3ab73b1240a1")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9927d41-827d-4901-b3c5-50c6256e4304")
+		(property "Reference" "R45"
+			(at 74.93 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b4fccf1-0fcb-44d7-891f-8726fed36f2a")
+		)
+		(pin "2"
+			(uuid "8fd87e57-ac83-42ca-8845-37ab8aafc616")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 88.9 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6d9ea76-4e12-4244-ae9a-f143eefd9356")
+		(property "Reference" "J2"
+			(at 88.9 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EdgeLock J2"
+			(at 88.9 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106"
+			(at 88.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Molex 2008900106 (mating housing, bought separately)"
+			(at 88.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "board-edge pads and board cut-outs; no part on the board"
+			(at 88.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4be76ce-b5e4-47a0-9d41-bd2ea8c19411")
+		)
+		(pin "2"
+			(uuid "dc2d8545-b30d-40f5-a010-cd629c405605")
+		)
+		(pin "3"
+			(uuid "63f2e2f6-5a67-4623-a4e5-af33064af0d5")
+		)
+		(pin "4"
+			(uuid "34030faa-c217-4320-9807-522a5f56e4a1")
+		)
+		(pin "5"
+			(uuid "5b01d52d-fad5-4254-957e-2f2bf6a10eaa")
+		)
+		(pin "6"
+			(uuid "40fdf28b-565e-42a1-90d8-e98337cf42e6")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d50d3739-40c4-4133-9c24-e48a07a23b30")
+		(property "Reference" "R69"
+			(at 240.03 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 240.03 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 240.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 240.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab65981a-8375-4ad6-8862-e1378a00eeb9")
+		)
+		(pin "2"
+			(uuid "185de63f-e866-47d3-bc48-226d062b384c")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6545fdf-c28b-48ef-883b-38605cbf5ac4")
+		(property "Reference" "R53"
+			(at 74.93 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 164.338 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d715fcd-9f61-4946-b41c-18715afab989")
+		)
+		(pin "2"
+			(uuid "6ff14b3e-07db-4851-9574-c45eb2a7db94")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d776b58f-265a-4475-8c79-0fb42ecd3d02")
+		(property "Reference" "R44"
+			(at 74.93 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8af61456-ccc5-47b6-8783-742f0a6b1333")
+		)
+		(pin "2"
+			(uuid "a74c6ab8-2549-4b38-a4a4-4ff41b078dbd")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 254 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7cd6f85-8fe2-4259-a5c6-1fc32e0903b2")
+		(property "Reference" "J9"
+			(at 254 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EdgeLock J9"
+			(at 254 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picomondo:EdgeLock_6ckt_Molex2008900106"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Molex 2008900106 (mating housing, bought separately)"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "board-edge pads and board cut-outs; no part on the board"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3c9f80c-91ec-40c1-8807-8f4d7fc6d948")
+		)
+		(pin "2"
+			(uuid "0f92106f-0224-4ffc-a5ce-a969c60734c0")
+		)
+		(pin "3"
+			(uuid "85bd861c-84ce-4355-a20d-1079ab4667e8")
+		)
+		(pin "4"
+			(uuid "1ab925fc-3424-4df2-9f78-97c3259b3f51")
+		)
+		(pin "5"
+			(uuid "8efbe7c4-af01-4496-861f-a9a659226b7e")
+		)
+		(pin "6"
+			(uuid "13ee5602-9967-4d70-b1b0-a6c54ea8fade")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2d26a83-5616-4a37-8059-a8ac88a880fd")
+		(property "Reference" "R48"
+			(at 74.93 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7d468a3-f07b-4239-b6aa-ff459b899882")
+		)
+		(pin "2"
+			(uuid "edaae51c-297b-421b-bab1-f07f8053468e")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 213.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e55708d8-c9e8-4265-afea-6de8b682d620")
+		(property "Reference" "R57"
+			(at 74.93 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 74.93 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 215.138 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 74.93 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 74.93 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da8dc3e4-2d0f-453d-b544-167b315595c6")
+		)
+		(pin "2"
+			(uuid "ee71e659-5641-4991-86d1-f3baa427bbfb")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb0e22c0-cf62-4a69-9913-3a7c95fea376")
+		(property "Reference" "R65"
+			(at 240.03 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 240.03 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67e627e7-6fe3-47f7-8e1e-b4ea2a7b626d")
+		)
+		(pin "2"
+			(uuid "ba01002f-7e14-4741-951c-0a816546bfc4")
+		)
+		(instances
+			(project "picomondo"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334/c80f3638-faae-4fee-9998-6f2a4e7355ed"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

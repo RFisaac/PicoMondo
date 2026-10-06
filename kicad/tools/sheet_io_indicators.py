@@ -2,8 +2,9 @@
 
 About 1 mA when the pin is high (white LED, Vf about 2.6 V): bright enough to see, and the LED
 does not conduct below about 2.4 V, so inputs, I2C-style pull-ups and button lines still work.
-The ADC pins (GPIO40-47) have an open solder jumper in series: bridge it to enable that LED;
-left open, the pin sees no extra load (precision analog readings).
+The ADC pins (GPIO40-47) are the same; on the board their LED branch has a trace neck to cut with a knife
+when a pin needs no extra load (precision analog readings). The solder jumpers this script once made were removed
+from the schematic by remove_led_jumpers.py, so do not regenerate this sheet.
 Pins without an indicator: GPIO8, 9 (output enables), 12-15, 22 (microSD), 20, 21 (I2C),
 23 (WS2812), 24 (+5V_SW enable), 25 (user LED has its own), 34 (PD alert), 35-39 (spare).
 """
@@ -52,5 +53,5 @@ def build(s, refs):
     row += 1
     col = 0
     for g in ADC:
-        indicator(s, refs, 38.1 + col * 25.4, 76.2 + row * 55.88 + 12.7, g, jumper=True)
+        indicator(s, refs, 38.1 + col * 25.4, 76.2 + row * 55.88 + 12.7, g)
         col += 1

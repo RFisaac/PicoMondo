@@ -36,6 +36,15 @@ nets are global and join across sheets; other labels are local to their sheet.
 | `compare_pi.py`, `compare_passives.py` | Check the MCU core against the Raspberry Pi reference |
 | `make_pcb.py` | Creates the PCB once (needs KiCad's Python); see docs/pcb.md |
 | `drc_report.py`, `project_settings.py` | PCB DRC summary; design rules and net classes |
+| `place_edgelock_resistors.py` | Put each EdgeLock 100 ohm resistor in line with its pin |
+| `place_swd_switches.py` | Place SWD header and BOOTSEL/RESET buttons at the right edge |
+| `arrange_offboard.py` | Lay out the parts still off the board as labelled sub-circuit clusters |
+| `place_rest.py` | Fit the remaining off-board parts into free space, near the parts they connect to |
+| `place_usb_pd.py` | Place the USB-C PD support parts at J13 / U10 |
+| `tp_to_back.py` | Flip the test points to the back |
+| `place_mcu.py` | Place the RP2350B with its decoupling, regulator, crystal, flash and USB resistors |
+| `place_gpio_indicators.py` | Continue each EdgeLock column with its 470 ohm and LED (LED beside the resistor, in an L) |
+| `remove_led_jumpers.py` | Removed the ADC LED solder jumpers (schematic and board) |
 | `add_shield_outlines.py` | Non-printing Uno and Pico outlines in the socket group |
 | `apply_parts.py`, `sync_board_parts.py`, `bom.py` | LCSC numbers from `bom/parts.csv` into schematic and board; JLCPCB BOM, CPL and stock report |
 | `fetch_datasheets.py`, `make_edgelock_fp.py`, `fix_lcsc_footprints.py`, `symfind.py`, `libpins.py` | Library and datasheet helpers |

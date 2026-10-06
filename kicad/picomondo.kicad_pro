@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -135,11 +151,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
-        "min_connection": 0.09,
+        "min_clearance": 0.1,
+        "min_connection": 0.0889,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -148,10 +164,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.45,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.0889,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -261,7 +277,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -516,7 +532,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.1,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -689,6 +705,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -808,13 +825,58 @@
       {
         "filename": "picomondo.kicad_sch",
         "name": "picomondo",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J20,#PWR1-5,CN1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "bcaf3449-4585-4c9e-b9ca-dab98f5b6334",
+      "picomondo"
+    ],
+    [
+      "13df0cac-7bbe-4a5a-bf65-36dd4c9bd6cf",
+      "MCU core"
+    ],
+    [
+      "f815e155-6a69-4b86-a22e-cba2bd205ffb",
+      "5V buck-boost"
+    ],
+    [
+      "cbe48ad9-b095-4cf8-a30a-406a59835dd3",
+      "Power input"
+    ],
+    [
+      "3d16a2f6-0c1d-487f-b95d-12da891b67f7",
+      "3V3 regulators"
+    ],
+    [
+      "ebb8acdd-80df-4e77-b168-32fe13c4ccc8",
+      "Switched outputs"
+    ],
+    [
+      "3a3c3967-a56f-4a6e-bbd2-55b0d89537b0",
+      "USB-C PD"
+    ],
+    [
+      "c80f3638-faae-4fee-9998-6f2a4e7355ed",
+      "EdgeLock connectors"
+    ],
+    [
+      "6946ce1d-d5e6-4214-b3ac-946dd82df719",
+      "GPIO indicators"
+    ],
+    [
+      "f3ef8d1b-3a77-4f4e-8762-f0b954ddc1e0",
+      "Arduino and Pico headers"
+    ],
+    [
+      "ae9a1582-4956-4843-969e-c35a4888fbb6",
+      "Board support"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

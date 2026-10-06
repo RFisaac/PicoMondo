@@ -114,12 +114,9 @@ def main():
     if grp is None:
         sys.exit(f'group "{GROUP}" not found')
 
-    # drop outlines from an earlier run
-    for item in list(grp.GetItems()):
-        if isinstance(item, (pcbnew.PCB_SHAPE, pcbnew.PCB_TEXT)) and item.GetLayer() in (
-                pcbnew.Dwgs_User, pcbnew.Cmts_User):
-            grp.RemoveItem(item)
-            board.Remove(item)
+    # outlines from an earlier run: collected now, removed just before saving (removing earlier crashes pcbnew)
+    old = [item for item in grp.GetItems() if item.GetClass() in ("PCB_SHAPE", "PCB_TEXT")
+           and item.GetLayer() in (pcbnew.Dwgs_User, pcbnew.Cmts_User)]
 
     DW, CM = pcbnew.Dwgs_User, pcbnew.Cmts_User
 
@@ -144,7 +141,7 @@ def main():
         if p.GetAttribute() == pcbnew.PAD_ATTRIB_NPTH:
             c = p.GetPosition()
             circle(board, grp, DW, uno.pt(c.x / MM, c.y / MM), p.GetDrillSize().x / MM)
-    label(board, grp, DW, "Arduino Uno R3 outline (not fabricated)", uno.pt(-20, 25), 1.5)
+    label(board, grp, DW, "Arduino Uno R3 outline (not fabricated)", uno.pt(-20, 4), 1.0)
 
     # --- Pico: frame origin = left socket pad 1; y along the pins (pad 1 to 20), x toward the right socket
     _, q1 = pad_pos(board, "Pico left (pins 1-20)", 1)
@@ -158,8 +155,9 @@ def main():
         circle(board, grp, CM, pico.pt(hx, 0.63), 2.1)
         circle(board, grp, CM, pico.pt(hx, 47.63), 2.1)
     polyline(board, grp, CM, pico, [(4.89, -2.6), (12.89, -2.6), (12.89, 3.9), (4.89, 3.9)])  # USB micro
-    label(board, grp, CM, "Pico outline (not fabricated)", pico.pt(8.89, 24), 1.5)
 
+    for item in old:
+        board.Remove(item)
     pcbnew.SaveBoard(str(PCB), board)
     PRO.write_bytes(pro_bytes)                              # pcbnew rewrites the project file; keep yours
     print(f"added {count} Uno lines + holes (Dwgs.User) and a Pico outline (Cmts.User) to '{GROUP}'")

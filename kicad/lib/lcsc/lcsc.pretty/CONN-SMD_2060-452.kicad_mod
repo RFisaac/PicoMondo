@@ -42,7 +42,7 @@
 	(fp_text user Line (at -6.52 0.06 0.00) (layer F.SilkS)
 		(effects (font (size 1.00 1.00) (thickness 0.15)) (justify left))
 	)
-	(model "${KIPRJMOD}C:/Users/isaac/Documents/PicoMondo/project/kicad/lib/lcsc/lcsc.3dshapes/CONN-SMD_2060-452.wrl"
+	(model "${KIPRJMOD}/lib/lcsc/lcsc.3dshapes/CONN-SMD_2060-452.step"
 		(offset (xyz -0.330 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

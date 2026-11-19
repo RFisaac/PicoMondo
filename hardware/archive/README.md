@@ -9,7 +9,7 @@ Frozen copy of the KiCad project matching the first JLCPCB order (October 2026).
 3D models were not included in this copy; the board opens and checks fine, the 3D view just has gaps.
 
 `hand-assembly/` holds aids made afterwards for building the bare boards by hand:
-- `ibom_with_sorting_boxes.html`: interactive BOM (open in a browser) generated from `picomondo_v1_IBOM_ONLY.kicad_pcb`, which is the as-ordered board plus `BOX_*` markers for sorting parts into a tray. Use it only for the iBOM, not for fabrication.
+- `picomondo_v1_IBOM_ONLY.kicad_pcb`: the as-ordered board plus a "fake board" drawn beside it, a model of the parts organiser (BOXALL96 lid and base) with every part assigned a bin. It exists only to generate the interactive BOM, which lives at [`docs/ibom/index.html`](../../docs/ibom/index.html). Don't use it for fabrication.
 - `stencil_top_F_Paste.dxf`: F.Paste layer exported 2026-11-09 for laser-cutting a Mylar stencil. It was exported from the working project, so check it against the bare board before cutting (it may include pads for the later PSRAM footprint).
 
 ## `v0-full-scope/`

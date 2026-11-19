@@ -51,7 +51,13 @@ v1 went to JLCPCB in late October 2026. Because of problems with the order, the 
 |---|---|
 | ![Stencil held over a bare PicoMondo PCB](docs/media/stencil_over_bare_board.jpg) | ![Close-up of the laser-cut QFN-80 apertures](docs/media/stencil_qfn80_closeup.jpg) |
 
-Assembly uses an interactive BOM with part-sorting boxes added to the board file (`hardware/archive/v1-as-ordered/hand-assembly`).
+### Interactive BOM with a parts-bin map
+
+To keep hundreds of hand-placed parts straight, I generated an [interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom) from a copy of the board file with a "fake board" drawn next to it: a model of my parts organiser, with every part assigned to a bin. Click a line in the BOM and the parts light up on the PCB **and** in the bin they're stored in, so picking and placing is one glance instead of a hunt.
+
+![Interactive BOM: the 470 Ω LED-ring resistors highlighted on the board and in their storage bin](docs/media/ibom_sorting_bins.jpg)
+
+**[Open the interactive BOM](https://rfisaac.github.io/PicoMondo/ibom/)** (or download [`docs/ibom/index.html`](docs/ibom/index.html) and open it in a browser). The board file behind it is in `hardware/archive/v1-as-ordered/hand-assembly`.
 
 ## How I worked
 
@@ -84,6 +90,7 @@ Tools: KiCad 10, Freerouting, Python scripts for KiCad file generation and place
 | `hardware/route-art/` | Decorative "route art" silkscreen experiments. |
 | `docs/specs/` | Current spec, plus the superseded specs that came before it. |
 | `docs/history/` | Build notes and background from earlier stages. |
+| `docs/ibom/` | Interactive BOM for hand assembly, with the parts-bin map. |
 | `docs/media/` | Photos, video and the README graphics (`src/` has the SVG sources and the script that makes them). |
 | `firmware/` | Placeholder. |
 

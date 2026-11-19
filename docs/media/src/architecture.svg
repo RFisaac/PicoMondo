@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" role="img" aria-label="PicoMondo system architecture" xmlns:c2pa="http://c2pa.org/manifest">
+<title>PicoMondo system architecture</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9db5a8"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3b341"/></marker><marker id="arrb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5cc8ff"/></marker></defs>
+<rect width="1200" height="640" rx="18" fill="#0e1a14"/>
+<text x="40" y="54" font-size="26" fill="#eef4f0" font-weight="700" text-anchor="start" >System architecture</text>
+<text x="40" y="80" font-size="15" fill="#9db5a8" font-weight="400" text-anchor="start" >One board that takes exhibit power, protects itself, and gives the RP2350B's GPIO robust connectors.</text>
+<text x="40" y="122" font-size="12.5" fill="#ff9f43" font-weight="700" text-anchor="start" letter-spacing="2">POWER</text>
+<text x="450" y="122" font-size="12.5" fill="#e3b341" font-weight="700" text-anchor="start" letter-spacing="2">CORE</text>
+<text x="860" y="122" font-size="12.5" fill="#5cc8ff" font-weight="700" text-anchor="start" letter-spacing="2">EXHIBIT I/O</text>
+<rect x="40" y="136" width="300" height="54" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="40" y="146" width="4" height="34" rx="2" fill="#ff9f43"/>
+<text x="58" y="161" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >Barrel jack, 12–24 V</text>
+<rect x="40" y="214" width="300" height="76" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="40" y="224" width="4" height="56" rx="2" fill="#ff9f43"/>
+<text x="58" y="239" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >Input protection</text>
+<text x="58" y="259" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >Reverse + overvoltage cut-off (LM74502)</text>
+<text x="58" y="277" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >5 A PTC fuse, TVS, trips near 28 V</text>
+<rect x="40" y="314" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="40" y="324" width="4" height="38" rx="2" fill="#ff9f43"/>
+<text x="58" y="339" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >5 V buck, 3 A</text>
+<text x="58" y="359" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >LMR33630B, 1.4 MHz</text>
+<rect x="40" y="396" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="40" y="406" width="4" height="38" rx="2" fill="#ff9f43"/>
+<text x="58" y="421" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >+5 V rail → 3.3 V LDO</text>
+<text x="58" y="441" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >Diode-OR, never back-feeds USB host</text>
+<rect x="40" y="478" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="40" y="488" width="4" height="38" rx="2" fill="#5cc8ff"/>
+<text x="58" y="503" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >USB-C</text>
+<text x="58" y="523" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >5 V power, data and programming</text>
+<rect x="40" y="560" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="40" y="570" width="4" height="38" rx="2" fill="#e3b341"/>
+<text x="58" y="585" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >Switched output, 3 A</text>
+<text x="58" y="605" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >Barrel voltage, GPIO enable, INA226</text>
+<path d="M190,190 L190,212" stroke="#9db5a8" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M190,290 L190,312" stroke="#9db5a8" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M190,372 L190,394" stroke="#9db5a8" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M190,478 L190,456" stroke="#9db5a8" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M40,252 L22,252 L22,589 L38,589" stroke="#e3b341" stroke-width="1.8" fill="none" marker-end="url(#arrg)"/>
+<text x="16" y="420" font-size="11.5" fill="#e3b341" font-weight="600" text-anchor="middle" transform="rotate(-90 16 420)">V_BARREL</text>
+<path d="M342,425 L372,425 L372,300 L448,300" stroke="#9db5a8" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<text x="410" y="293" font-size="11.5" fill="#9db5a8" font-weight="600" text-anchor="middle" >3.3 V</text>
+<path d="M342,507 L400,507 L400,340 L448,340" stroke="#5cc8ff" stroke-width="1.8" fill="none" marker-end="url(#arrb)"/>
+<text x="424" y="333" font-size="11.5" fill="#5cc8ff" font-weight="600" text-anchor="middle" >USB</text>
+<rect x="450" y="136" width="300" height="236" rx="12" fill="#183a2a" stroke="#e3b341" stroke-width="2"/>
+<g transform="rotate(45 600 220)"><rect x="566" y="186" width="68" height="68" rx="4" fill="#111" stroke="#666"/><rect x="570.0" y="180" width="3" height="6" fill="#e3b341"/><rect x="570.0" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="190.0" width="6" height="3" fill="#e3b341"/><rect x="634" y="190.0" width="6" height="3" fill="#e3b341"/><rect x="577.5" y="180" width="3" height="6" fill="#e3b341"/><rect x="577.5" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="197.5" width="6" height="3" fill="#e3b341"/><rect x="634" y="197.5" width="6" height="3" fill="#e3b341"/><rect x="585.0" y="180" width="3" height="6" fill="#e3b341"/><rect x="585.0" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="205.0" width="6" height="3" fill="#e3b341"/><rect x="634" y="205.0" width="6" height="3" fill="#e3b341"/><rect x="592.5" y="180" width="3" height="6" fill="#e3b341"/><rect x="592.5" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="212.5" width="6" height="3" fill="#e3b341"/><rect x="634" y="212.5" width="6" height="3" fill="#e3b341"/><rect x="600.0" y="180" width="3" height="6" fill="#e3b341"/><rect x="600.0" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="220.0" width="6" height="3" fill="#e3b341"/><rect x="634" y="220.0" width="6" height="3" fill="#e3b341"/><rect x="607.5" y="180" width="3" height="6" fill="#e3b341"/><rect x="607.5" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="227.5" width="6" height="3" fill="#e3b341"/><rect x="634" y="227.5" width="6" height="3" fill="#e3b341"/><rect x="615.0" y="180" width="3" height="6" fill="#e3b341"/><rect x="615.0" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="235.0" width="6" height="3" fill="#e3b341"/><rect x="634" y="235.0" width="6" height="3" fill="#e3b341"/><rect x="622.5" y="180" width="3" height="6" fill="#e3b341"/><rect x="622.5" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="242.5" width="6" height="3" fill="#e3b341"/><rect x="634" y="242.5" width="6" height="3" fill="#e3b341"/><rect x="630.0" y="180" width="3" height="6" fill="#e3b341"/><rect x="630.0" y="254" width="3" height="6" fill="#e3b341"/><rect x="560" y="250.0" width="6" height="3" fill="#e3b341"/><rect x="634" y="250.0" width="6" height="3" fill="#e3b341"/></g>
+<circle cx="588.9" cy="157.0" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="581.1" cy="158.9" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="573.6" cy="161.7" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="566.5" cy="165.5" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="560.0" cy="170.1" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="554.0" cy="175.5" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="548.8" cy="181.6" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="544.4" cy="188.2" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="540.9" cy="195.4" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="538.3" cy="203.0" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="536.7" cy="210.9" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="536.0" cy="218.9" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="536.4" cy="226.9" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="537.7" cy="234.8" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="540.1" cy="242.4" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="543.3" cy="249.7" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="547.5" cy="256.6" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="552.5" cy="262.9" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="558.2" cy="268.5" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="564.6" cy="273.3" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="571.5" cy="277.3" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="578.9" cy="280.4" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="586.6" cy="282.6" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="594.6" cy="283.8" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="602.6" cy="283.9" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="610.5" cy="283.1" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="618.4" cy="281.3" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="625.9" cy="278.5" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="633.0" cy="274.8" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="639.6" cy="270.3" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="645.6" cy="265.0" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="650.8" cy="258.9" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="655.3" cy="252.2" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="658.9" cy="245.1" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="661.6" cy="237.5" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="663.3" cy="229.7" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="664.0" cy="221.7" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="663.7" cy="213.7" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="662.4" cy="205.8" r="3" fill="#fffbe6" opacity="0.9"/>
+<circle cx="660.1" cy="198.1" r="3" fill="#fffbe6" opacity="0.9"/>
+<text x="600" y="318" font-size="22" fill="#eef4f0" font-weight="700" text-anchor="middle" >RP2350B</text>
+<text x="600" y="340" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="middle" >Dual Arm Cortex-M33 / RISC-V, 150 MHz</text>
+<text x="600" y="358" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="middle" >QFN-80, 48 GPIO, 8 ADC</text>
+<rect x="450" y="396" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="450" y="406" width="4" height="38" rx="2" fill="#e3b341"/>
+<text x="468" y="421" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >16 MB QSPI flash</text>
+<text x="468" y="441" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >W25Q128, copied from the Pi reference</text>
+<rect x="450" y="478" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="450" y="488" width="4" height="38" rx="2" fill="#e3b341"/>
+<text x="468" y="503" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >microSD</text>
+<text x="468" y="523" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >SPI1 with card detect</text>
+<rect x="450" y="560" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="450" y="570" width="4" height="38" rx="2" fill="#e3b341"/>
+<text x="468" y="585" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >PSRAM (in progress)</text>
+<text x="468" y="605" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >APS6404L on the second chip select</text>
+<path d="M600,372 L600,394" stroke="#9db5a8" stroke-width="1.8" fill="none"/>
+<rect x="860" y="136" width="300" height="76" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="860" y="146" width="4" height="56" rx="2" fill="#5cc8ff"/>
+<text x="878" y="161" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >7 × Molex EdgeLock, 8-circuit</text>
+<text x="878" y="181" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >38 GPIO, 100 Ω in series on every pin</text>
+<text x="878" y="199" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >Header holes behind each one</text>
+<path d="M752,254 C800,254 810,174.0 858,174.0" stroke="#5cc8ff" stroke-width="1.6" fill="none"/>
+<rect x="860" y="236" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="860" y="246" width="4" height="38" rx="2" fill="#e3b341"/>
+<text x="878" y="261" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >Indicator LED ring</text>
+<text x="878" y="281" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >40 white LEDs, one per GPIO, ~1 mA</text>
+<path d="M752,254 C800,254 810,265.0 858,265.0" stroke="#e3b341" stroke-width="1.6" fill="none"/>
+<rect x="860" y="318" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="860" y="328" width="4" height="38" rx="2" fill="#b79cff"/>
+<text x="878" y="343" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >Qwiic / STEMMA QT</text>
+<text x="878" y="363" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >I2C sensors, shared with the INA226</text>
+<path d="M752,254 C800,254 810,347.0 858,347.0" stroke="#b79cff" stroke-width="1.6" fill="none"/>
+<rect x="860" y="400" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="860" y="410" width="4" height="38" rx="2" fill="#ff9f43"/>
+<text x="878" y="425" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >NeoPixel connector</text>
+<text x="878" y="445" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >Data buffered to 5 V, fused 5 V supply</text>
+<path d="M752,254 C800,254 810,429.0 858,429.0" stroke="#ff9f43" stroke-width="1.6" fill="none"/>
+<rect x="860" y="482" width="300" height="58" rx="10" fill="#15281f" stroke="#2a4a3a" stroke-width="1.5"/>
+<rect x="860" y="492" width="4" height="38" rx="2" fill="#4cd087"/>
+<text x="878" y="507" font-size="16" fill="#eef4f0" font-weight="600" text-anchor="start" >Status and debug</text>
+<text x="878" y="527" font-size="13.5" fill="#9db5a8" font-weight="400" text-anchor="start" >WS2812 LED, BOOTSEL, RESET, SWD</text>
+<path d="M752,254 C800,254 810,511.0 858,511.0" stroke="#4cd087" stroke-width="1.6" fill="none"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozMjM0ODEwOS1iYjU0LTQ2ZjUtYjAyYS02NmNiM2YzOTE0ZTQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaBy36IPxgSXeOEYYVDsgFv0AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2M2Y1NTQ2OC1hZmJiLTQwZGEtODQ3My01MWRkNzM4NmMxYzVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoUAgFW3sybQtLC4rxk5E73wAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg0BXbDIZ+KkRXsuFJWzIfYS6GwlLDUC1dyGVWLkhbwY6kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIgCm+4sJgsZylDi0vAFC4YAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIEp1xEYHje/fRj+8tgd8zan6DUtTjr27kIxnbLLZpm7sZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GTnrZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjMyMzQ4MTA5LWJiNTQtNDZmNS1iMDJhLTY2Y2IzZjM5MTRlNC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmJlYjIyZTcwLWE3MzUtNDExMS1iZTMxLTA0NDg4YTk2ZDUyZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDQFdsMhn4qRFey4UlbMh9hLobCUsNQLV3IZVYuSFvBjqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggRPxe6MIE1kSKxRWW7GlDU1Ct1ivTQ7atKGtEuPzP/4SiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggbi+YCBvJVhNJyW/6MvmcEy8KPONntP2k+Uz6OkXFXTF0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQP0uR0O+q7InzIU7yEfMD6aVbcpplx3N8SVtMuEakFakzgv2mVd/on9xgmQw/3DAU414TpiDuo74c88Crga/yLA=</c2pa:manifest></metadata></svg>

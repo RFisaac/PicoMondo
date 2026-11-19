@@ -1,0 +1,100 @@
+Value,Footprint,LCSC,MPN,Note
+4.7u,picomondo:C_0402_1005Metric_small_pads,C23733,CL05A475MP5NRNC,
+100n,Capacitor_SMD:C_0402_1005Metric,C307331,CL05B104KB54PNC,50 V X7R
+10u,Capacitor_SMD:C_0805_2012Metric,C15850,CL21A106KAYNNNE,25 V X5R
+15p,Capacitor_SMD:C_0402_1005Metric,C106997,CC0402JRNPO9BN150,C0G
+10u 50V,Capacitor_SMD:C_1206_3216Metric,C7432782,,
+100n 50V,Capacitor_SMD:C_0402_1005Metric,C307331,CL05B104KB54PNC,
+100n 25V,Capacitor_SMD:C_0402_1005Metric,C307331,CL05B104KB54PNC,50 V part used for the 25 V lines
+22u 16V,Capacitor_SMD:C_1206_3216Metric,C2985039,,
+10u 16V,Capacitor_SMD:C_0805_2012Metric,C15850,CL21A106KAYNNNE,
+10n,Capacitor_SMD:C_0402_1005Metric,C15195,CL05B103KB5NNNC,
+3.3n,Capacitor_SMD:C_0402_1005Metric,C26404,CL05B332KB5NNNC,preferred extended
+10u 10V,Capacitor_SMD:C_0805_2012Metric,C15850,CL21A106KAYNNNE,"replaces C91158 (Y5V, out of stock)"
+4.7u 25V,Capacitor_SMD:C_0805_2012Metric,C1779,CL21A475KAQNNNE,
+1u 10V,Capacitor_SMD:C_0402_1005Metric,C52923,CL05A105KA5NQNC,25 V part
+1u 25V,Capacitor_SMD:C_0603_1608Metric,C5673,CL10A105KA8NNNC,extended; a 0402 would be basic (C52923)
+SS54F-HF 5A 40V,lcsc:DO-214AD_L4.0-W2.5-LS4.8-FD,C5142774,SS54F-HF,
+SMBJ28A,lcsc:SMB_L4.6-W3.6-LS5.3-RD,C178227,SMBJ28A,
+SS54-HF,lcsc:SMA_L4.3-W2.5-LS5.0-RD,C22452,SS54,MDD SS54 (basic); SS54-HF was out of stock
+BZT52C12 12V,Diode_SMD:D_SOD-123,C177013,BZT52C12-13-F,
+red,LED_SMD:LED_0603_1608Metric,C2286,KT-0603R,
+ESDA25P35-1U1M,lcsc:DFN1610-2_L1.6-W1.0-P1.05-RD,C1974707,ESDA25P35-1U1M,
+ESDA25W,lcsc:SOT-323-3_L2.1-W1.3-P1.32-LS2.1-BR,C2935152,ESDA25W,
+white,lcsc:LED-SMD_L1.0-W0.5-RD_WHITE,C7220928,LW QH8G-Q2OO-3K5L-1,
+1N5819HW,lcsc:SOD-123_L2.7-W1.6-LS3.7-RD,C82544,1N5819HW-7-F,
+WS2812B-V5,lcsc:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1,C2874885,WS2812B-V5/W,Worldsemi; C2846931 was out of stock
+power,lcsc:LED-SMD_L1.0-W0.5-RD_WHITE,C7220928,LW QH8G-Q2OO-3K5L-1,
+user,lcsc:LED-SMD_L1.0-W0.5-RD_WHITE,C7220928,LW QH8G-Q2OO-3K5L-1,
+5A hold 30V,lcsc:F2920,C19078763,2920L500/30GR,
+3A hold 33V,lcsc:F1812,C54300298,1812L300/33GR,
+Fiducial,Fiducial:Fiducial_1mm_Mask2mm,,,no part (footprint only)
+M3,MountingHole:MountingHole_3.2mm_M3,,,no part (footprint only)
+J7 5V out,lcsc:CONN-TH_P5.00_KF301-5.0-2P,C474881,KF301-5.0-2P,
+J8 V_INPUT out,lcsc:CONN-TH_P5.00_KF301-5.0-2P,C474881,KF301-5.0-2P,
+SWD,Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,C239521,A1002WR-S-3P,"SH-compatible, replaces JST (2 in stock)"
+Barrel 5.5x2.1,lcsc:DC-IN-TH_PJ-102AH,C3096093,PJ-102AH,
+Terminal 2P,lcsc:CONN-SMD_2060-452,C2765055,2060-452/998-404,
+USB-C,lcsc:TYPE-C-SMD_SBC-160S1A-20-S412,C3020560,USB4105-GF-A,
+Arduino power,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,C124416,B-2200S08P-A120,through hole
+Arduino analog,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,C124415,B-2200S06P-A120,through hole
+Arduino digital 0-7,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,C124416,B-2200S08P-A120,through hole
+Arduino digital 8-13,Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical,C124423,B-2200S10P-B120,through hole
+Pico left (pins 1-20),Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,C124410,B-2200S20P-A120 (1x20 female),
+Pico right (pins 40-21),Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,C124410,B-2200S20P-A120 (1x20 female),
+LED enable,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,,no part (footprint only)
+AREF to 3V3,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,,no part (footprint only)
+3.3u,picomondo:L_pol_2016,C42411119,AOTA-B201610S3R3-101-T,
+4.7u,Inductor_SMD:L_Coilcraft_XAL1010-XXX,C19271849,XAL1010-472MED,
+AGND-GND,NetTie:NetTie-2_SMD_Pad0.5mm,,,no part (footprint only)
+CSD18543Q3A,lcsc:VSONP-8_L3.1-W3.1-P0.65-LS3.5-BL,C840100,CSD18543Q3A,
+SI2305A,Package_TO_SOT_SMD:SOT-23,C347488,SI2305A,
+MMBT3904,Package_TO_SOT_SMD:SOT-23,C81464,MMBT3904LT1G,
+DMP4015SSS-13,lcsc:SO-8_L4.9-W3.9-P1.27-LS5.9-BL,C508210,DMP4015SSS-13,
+33,Resistor_SMD:R_0402_1005Metric,C25105,0402WGF330JTCE,
+1k,Resistor_SMD:R_0402_1005Metric,C11702,0402WGF1001TCE,
+0,Resistor_SMD:R_0402_1005Metric,C17168,0402WGF0000TCE,
+27,Resistor_SMD:R_0402_1005Metric,C25100,0402WGF270JTCE,extended
+10m 1% 1W,Resistor_SMD:R_2512_6332Metric,C500718,GX2512-2W-10mR-1%,
+49.9k 1%,Resistor_SMD:R_0402_1005Metric,C25897,0402WGF4992TCE,preferred extended
+33.2k 1%,Resistor_SMD:R_0402_1005Metric,C122548,0402WGF3322TCE,extended
+100k,Resistor_SMD:R_0402_1005Metric,C25741,0402WGF1003TCE,
+7.5k,Resistor_SMD:R_0402_1005Metric,C25918,0402WGF7501TCE,preferred extended
+220k 1%,Resistor_SMD:R_0402_1005Metric,C25767,0402WGF2203TCE,preferred extended
+88.7k 1%,Resistor_SMD:R_0402_1005Metric,C25922,0402WGF8872TCE,extended
+10k,Resistor_SMD:R_0402_1005Metric,C25744,0402WGF1002TCE,
+20m 1% 2W,lcsc:R2512,C500720,GX2512-2W-20mR-1%,
+47k,Resistor_SMD:R_0402_1005Metric,C25792,0402WGF4702TCE,
+22k,Resistor_SMD:R_0603_1608Metric,C31850,0603WAF2202T5E,
+22k,Resistor_SMD:R_0402_1005Metric,C25768,0402WGF2202TCE,
+470,Resistor_SMD:R_0402_1005Metric,C25117,0402WGF4700TCE,
+4.7k,Resistor_SMD:R_0402_1005Metric,C25900,0402WGF4701TCE,
+100,Resistor_SMD:R_0402_1005Metric,C25076,0402WGF1000TCE,
+BOOTSEL,picomondo:SW_SMD_TS-1187A_5.1x5.1,C318884,TS-1187A-B-A-B,basic; footprint changed to the 5.1 mm switch
+RESET,picomondo:SW_SMD_TS-1187A_5.1x5.1,C318884,TS-1187A-B-A-B,basic; footprint changed to the 5.1 mm switch
++5V,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
++3V3,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+V_INPUT,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+GND,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
++1V1,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
++3V3_AUX,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
++5V_SW,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+VBUS,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+GPIO20,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+GPIO21,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+USB_D+,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+USB_D-,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+GPIO36,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+GPIO37,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+GPIO38,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+GPIO39,TestPoint:TestPoint_Pad_D1.5mm,,,no part (footprint only)
+RP2350B,picomondo:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias,C42415655,RP2350B,extended
+W25Q128JVS,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm,C97521,W25Q128JVSIQ,basic
+TPS55288,lcsc:VQFN-HR-26_L4.0-W3.5_TPS55288RPMR,C2864583,TPS55288RPMR,
+AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5,C51118,AP2112K-3.3TRG1,
+INA226 (0x40),Package_SO:MSOP-10_3x3mm_P0.5mm,C49851,INA226AIDGSR,
+INA226 (0x41),Package_SO:MSOP-10_3x3mm_P0.5mm,C49851,INA226AIDGSR,
+USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,C7519,USBLC6-2SC6,
+STUSB4500,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm,C2678061,STUSB4500QTR,
+microSD,lcsc:TF-SMD_503398-1892,C428492,5033981892,
+ABM8-272-T3,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,C20625731,ABM8-272-T3,12 MHz 10 pF

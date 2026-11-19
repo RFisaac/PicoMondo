@@ -1,0 +1,16 @@
+* text=auto
+
+# KiCad sources are text, but diffs of them are rarely useful line by line
+*.kicad_pcb text -diff
+*.kicad_sch text
+*.kicad_sym text
+*.kicad_mod text
+*.kicad_pro text
+
+# 3D models and binaries
+*.step binary
+*.stp binary
+*.wrl binary
+*.zip binary
+*.pdf binary
+*.vectorcraft binary

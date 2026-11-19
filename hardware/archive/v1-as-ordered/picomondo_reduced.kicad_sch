@@ -1,0 +1,481 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bcaf3449-4585-4c9e-b9ca-dab98f5b6334")
+	(paper "A3")
+	(title_block
+		(title "PicoMondo v1 (reduced scope) - RP2350B exhibit controller")
+		(date "2026-10-26")
+		(rev "1")
+		(company "PicoMondo")
+	)
+	(lib_symbols)
+	(text "v1 scope: see claude/RP2350B_v1_Specification.md in the project.\nSheets marked PLACEHOLDER hold notes for circuits still to draw."
+		(exclude_from_sim no)
+		(at 25.4 20.32 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "47f338cc-4744-4421-b2b2-2bc3ed5885f5")
+	)
+	(sheet
+		(at 25.4 38.1)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13df0cac-7bbe-4a5a-bf65-36dd4c9bd6cf")
+		(property "Sheetname" "MCU core"
+			(at 25.4 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_core.kicad_sch"
+			(at 25.4 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 139.7)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "274b9a71-f5b7-4013-8436-498dcc13912d")
+		(property "Sheetname" "EdgeLock connectors"
+			(at 25.4 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "edgelock.kicad_sch"
+			(at 25.4 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 311.15 88.9)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "28f278e3-2501-44ec-8a28-da932eda2f88")
+		(property "Sheetname" "USB-C"
+			(at 311.15 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_c.kicad_sch"
+			(at 311.15 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 38.1)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3d16a2f6-0c1d-487f-b95d-12da891b67f7")
+		(property "Sheetname" "3V3 regulators"
+			(at 120.65 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_3v3.kicad_sch"
+			(at 120.65 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 139.7)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "663a7ff4-935b-4f1d-ada4-9aea84275c7e")
+		(property "Sheetname" "NeoPixel and Qwiic"
+			(at 120.65 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "neopixel.kicad_sch"
+			(at 120.65 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 88.9)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6946ce1d-d5e6-4214-b3ac-946dd82df719")
+		(property "Sheetname" "GPIO indicators"
+			(at 25.4 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_indicators.kicad_sch"
+			(at 25.4 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 88.9)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "846886f2-6a4e-4231-a636-ff27d83fbcbe")
+		(property "Sheetname" "5V and power priority"
+			(at 215.9 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_5v.kicad_sch"
+			(at 215.9 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 311.15 38.1)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ae9a1582-4956-4843-969e-c35a4888fbb6")
+		(property "Sheetname" "Board support"
+			(at 311.15 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board_support.kicad_sch"
+			(at 311.15 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 88.9)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c99ddf73-1882-4680-b809-9c437ec263a9")
+		(property "Sheetname" "Barrel input"
+			(at 120.65 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "barrel_input.kicad_sch"
+			(at 120.65 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 38.1)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ebb8acdd-80df-4e77-b168-32fe13c4ccc8")
+		(property "Sheetname" "Switched outputs"
+			(at 215.9 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switched_output.kicad_sch"
+			(at 215.9 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picomondo_reduced"
+				(path "/bcaf3449-4585-4c9e-b9ca-dab98f5b6334"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

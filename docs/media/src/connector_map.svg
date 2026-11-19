@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" role="img" aria-label="PicoMondo connector map" xmlns:c2pa="http://c2pa.org/manifest">
+<title>PicoMondo connector map</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9db5a8"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3b341"/></marker><marker id="arrb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5cc8ff"/></marker></defs>
+<rect width="1200" height="700" rx="18" fill="#0e1a14"/>
+<text x="40" y="54" font-size="26" fill="#eef4f0" font-weight="700" text-anchor="start" >Connector map</text>
+<text x="40" y="80" font-size="15" fill="#9db5a8" font-weight="400" text-anchor="start" >120 × 90 mm, 4-layer. Each connector takes its pins from the side of the chip that faces it.</text>
+<rect x="70" y="120" width="600.0" height="450.0" rx="15" fill="#1c5a3b" stroke="#3d8a5f" stroke-width="2"/>
+<rect x="440.0" y="230.0" width="150.0" height="190.0" rx="10" fill="#ff9f43" opacity="0.10" stroke="#ff9f43" stroke-opacity="0.5" stroke-dasharray="5 4"/>
+<text x="515.0" y="410.0" font-size="12.5" fill="#ff9f43" font-weight="600" text-anchor="middle" >power stage</text>
+<circle cx="90.0" cy="140.0" r="8" fill="#0e1a14" stroke="#e3b341" stroke-width="3"/>
+<circle cx="650.0" cy="140.0" r="8" fill="#0e1a14" stroke="#e3b341" stroke-width="3"/>
+<circle cx="90.0" cy="550.0" r="8" fill="#0e1a14" stroke="#e3b341" stroke-width="3"/>
+<circle cx="650.0" cy="550.0" r="8" fill="#0e1a14" stroke="#e3b341" stroke-width="3"/>
+<rect x="119.75" y="120" width="135.5" height="35.0" rx="3" fill="#ff9f43" opacity="0.22" stroke="#ff9f43" stroke-width="1.5"/>
+<rect x="137.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="147.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="157.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="167.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="202.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="212.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="222.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="232.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<text x="187.5" y="173.0" font-size="14" fill="#ff9f43" font-weight="700" text-anchor="middle" >EL1</text>
+<rect x="302.25" y="120" width="135.5" height="35.0" rx="3" fill="#5cc8ff" opacity="0.22" stroke="#5cc8ff" stroke-width="1.5"/>
+<rect x="319.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="329.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="339.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="349.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="385.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="395.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="405.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="415.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<text x="370.0" y="173.0" font-size="14" fill="#5cc8ff" font-weight="700" text-anchor="middle" >EL2</text>
+<rect x="484.75" y="120" width="135.5" height="35.0" rx="3" fill="#5cc8ff" opacity="0.22" stroke="#5cc8ff" stroke-width="1.5"/>
+<rect x="502.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="512.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="522.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="532.2" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="567.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="577.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="587.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="597.8" y="122" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<text x="552.5" y="173.0" font-size="14" fill="#5cc8ff" font-weight="700" text-anchor="middle" >EL3</text>
+<rect x="119.75" y="535.0" width="135.5" height="35.0" rx="3" fill="#ff9f43" opacity="0.22" stroke="#ff9f43" stroke-width="1.5"/>
+<rect x="137.2" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="147.2" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="157.2" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="167.2" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="202.8" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="212.8" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="222.8" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="232.8" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<text x="187.5" y="527.0" font-size="14" fill="#ff9f43" font-weight="700" text-anchor="middle" >EL4</text>
+<rect x="296.0" y="535.0" width="135.5" height="35.0" rx="3" fill="#5cc8ff" opacity="0.22" stroke="#5cc8ff" stroke-width="1.5"/>
+<rect x="313.5" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="323.5" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="333.5" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="343.5" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="379.0" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="389.0" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="399.0" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="409.0" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<text x="363.75" y="527.0" font-size="14" fill="#5cc8ff" font-weight="700" text-anchor="middle" >EL5</text>
+<rect x="472.25" y="535.0" width="135.5" height="35.0" rx="3" fill="#5cc8ff" opacity="0.22" stroke="#5cc8ff" stroke-width="1.5"/>
+<rect x="489.8" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="499.8" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="509.8" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="519.8" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="555.2" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="565.2" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="575.2" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<rect x="585.2" y="544.0" width="5.0" height="24" rx="1" fill="#e3b341"/>
+<text x="540.0" y="527.0" font-size="14" fill="#5cc8ff" font-weight="700" text-anchor="middle" >EL6</text>
+<rect x="70" y="273.25" width="35.0" height="135.5" rx="3" fill="#b79cff" opacity="0.22" stroke="#b79cff" stroke-width="1.5"/>
+<rect x="72" y="290.8" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="72" y="300.8" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="72" y="310.8" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="72" y="320.8" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="72" y="356.2" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="72" y="366.2" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="72" y="376.2" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="72" y="386.2" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<text x="115.0" y="346.0" font-size="14" fill="#b79cff" font-weight="700" text-anchor="start" >EL7</text>
+<rect x="635.0" y="342.25" width="35.0" height="95.5" rx="3" fill="#e3b341" opacity="0.22" stroke="#e3b341" stroke-width="1.5"/>
+<rect x="644.0" y="359.8" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="644.0" y="369.8" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="644.0" y="405.2" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<rect x="644.0" y="415.2" width="24" height="5.0" rx="1" fill="#e3b341"/>
+<text x="625.0" y="395.0" font-size="14" fill="#e3b341" font-weight="700" text-anchor="end" >OUT</text>
+<rect x="635.25" y="187.00000000000003" width="37.5" height="45.0" rx="3" fill="#cfd6d2" stroke="#7d8a84"/>
+<text x="697.5" y="214.50000000000003" font-size="13.5" fill="#5cc8ff" font-weight="600" text-anchor="start" >USB-C</text>
+<rect x="615.5" y="272.0" width="70.0" height="45.0" rx="3" fill="#cfd6d2" stroke="#7d8a84"/>
+<text x="722.5" y="299.5" font-size="13.5" fill="#ff9f43" font-weight="600" text-anchor="start" >12–24 V in</text>
+<rect x="633.0" y="455.0" width="30.0" height="50.0" rx="3" fill="#cfd6d2" stroke="#7d8a84"/>
+<text x="697.5" y="485.0" font-size="13.5" fill="#ff9f43" font-weight="600" text-anchor="start" >NeoPixel</text>
+<rect x="76.5" y="182.99999999999997" width="21.0" height="30.0" rx="3" fill="#cfd6d2" stroke="#7d8a84"/>
+<text x="105.5" y="202.99999999999997" font-size="13" fill="#b79cff" font-weight="600" text-anchor="start" >Qwiic</text>
+<rect x="75.50000000000001" y="230.0" width="21.0" height="25.0" rx="3" fill="#cfd6d2" stroke="#7d8a84"/>
+<text x="104.50000000000001" y="247.5" font-size="13" fill="#4cd087" font-weight="600" text-anchor="start" >SWD</text>
+<rect x="87.5" y="423.0" width="60.0" height="65.0" rx="3" fill="#cfd6d2" stroke="#7d8a84"/>
+<text x="155.5" y="460.5" font-size="13" fill="#e3b341" font-weight="600" text-anchor="start" ></text>
+<text x="117.5" y="504.0" font-size="12.5" fill="#e3b341" font-weight="600" text-anchor="middle" >microSD</text>
+<rect x="186.25000000000003" y="308.0" width="24" height="24" rx="3" fill="#cfd6d2" stroke="#7d8a84"/><circle cx="198.25000000000003" cy="320.0" r="6" fill="#e8c27a"/>
+<text x="180.25000000000003" y="324.0" font-size="11" fill="#eef4f0" font-weight="600" text-anchor="end" >BOOT</text>
+<rect x="186.25000000000003" y="363.0" width="24" height="24" rx="3" fill="#cfd6d2" stroke="#7d8a84"/><circle cx="198.25000000000003" cy="375.0" r="6" fill="#e8c27a"/>
+<text x="180.25000000000003" y="379.0" font-size="11" fill="#eef4f0" font-weight="600" text-anchor="end" >RESET</text>
+<text x="690.0" y="417.0" font-size="12.5" fill="#e3b341" font-weight="600" text-anchor="start" >3 A switched</text>
+<circle cx="323.5" cy="251.4" r="4" fill="#fffbe6"/>
+<circle cx="311.9" cy="254.2" r="4" fill="#fffbe6"/>
+<circle cx="300.8" cy="258.5" r="4" fill="#fffbe6"/>
+<circle cx="290.3" cy="264.0" r="4" fill="#fffbe6"/>
+<circle cx="280.6" cy="270.9" r="4" fill="#fffbe6"/>
+<circle cx="271.8" cy="278.9" r="4" fill="#fffbe6"/>
+<circle cx="264.1" cy="287.9" r="4" fill="#fffbe6"/>
+<circle cx="257.5" cy="297.9" r="4" fill="#fffbe6"/>
+<circle cx="252.3" cy="308.5" r="4" fill="#fffbe6"/>
+<circle cx="248.4" cy="319.8" r="4" fill="#fffbe6"/>
+<circle cx="246.0" cy="331.4" r="4" fill="#fffbe6"/>
+<circle cx="245.0" cy="343.3" r="4" fill="#fffbe6"/>
+<circle cx="245.5" cy="355.2" r="4" fill="#fffbe6"/>
+<circle cx="247.6" cy="366.9" r="4" fill="#fffbe6"/>
+<circle cx="251.0" cy="378.3" r="4" fill="#fffbe6"/>
+<circle cx="255.9" cy="389.1" r="4" fill="#fffbe6"/>
+<circle cx="262.1" cy="399.3" r="4" fill="#fffbe6"/>
+<circle cx="269.5" cy="408.6" r="4" fill="#fffbe6"/>
+<circle cx="278.0" cy="416.9" r="4" fill="#fffbe6"/>
+<circle cx="287.4" cy="424.1" r="4" fill="#fffbe6"/>
+<circle cx="297.7" cy="430.1" r="4" fill="#fffbe6"/>
+<circle cx="308.7" cy="434.7" r="4" fill="#fffbe6"/>
+<circle cx="320.2" cy="437.9" r="4" fill="#fffbe6"/>
+<circle cx="331.9" cy="439.7" r="4" fill="#fffbe6"/>
+<circle cx="343.8" cy="439.9" r="4" fill="#fffbe6"/>
+<circle cx="355.7" cy="438.7" r="4" fill="#fffbe6"/>
+<circle cx="367.2" cy="436.0" r="4" fill="#fffbe6"/>
+<circle cx="378.4" cy="431.9" r="4" fill="#fffbe6"/>
+<circle cx="389.0" cy="426.4" r="4" fill="#fffbe6"/>
+<circle cx="398.8" cy="419.7" r="4" fill="#fffbe6"/>
+<circle cx="407.6" cy="411.7" r="4" fill="#fffbe6"/>
+<circle cx="415.4" cy="402.7" r="4" fill="#fffbe6"/>
+<circle cx="422.1" cy="392.9" r="4" fill="#fffbe6"/>
+<circle cx="427.4" cy="382.2" r="4" fill="#fffbe6"/>
+<circle cx="431.4" cy="371.0" r="4" fill="#fffbe6"/>
+<circle cx="433.9" cy="359.4" r="4" fill="#fffbe6"/>
+<circle cx="435.0" cy="347.6" r="4" fill="#fffbe6"/>
+<circle cx="434.5" cy="335.7" r="4" fill="#fffbe6"/>
+<circle cx="432.6" cy="323.9" r="4" fill="#fffbe6"/>
+<circle cx="429.3" cy="312.5" r="4" fill="#fffbe6"/>
+<g transform="rotate(45 340.0 345.0)"><rect x="315.0" y="320.0" width="50" height="50" rx="3" fill="#111" stroke="#777"/></g>
+<text x="340.0" y="350.0" font-size="12" fill="#eef4f0" font-weight="700" text-anchor="middle" >RP2350B</text>
+<g transform="rotate(-45 360.5 275.0)"><rect x="347.5" y="262.0" width="26" height="26" rx="2" fill="#111" stroke="#777"/></g>
+<text x="380.5" y="267.0" font-size="12" fill="#9db5a8" font-weight="600" text-anchor="start" >flash</text>
+<text x="380.5" y="283.0" font-size="11" fill="#9db5a8" font-weight="400" text-anchor="start" >(USB exits here too)</text>
+<text x="340.0" y="466.0" font-size="12.5" fill="#eef4f0" font-weight="600" text-anchor="middle" >40 indicator LEDs</text>
+<text x="820" y="130" font-size="12.5" fill="#9db5a8" font-weight="700" text-anchor="start" letter-spacing="2">PIN MAP</text>
+<rect x="820" y="146" width="340" height="50" rx="8" fill="#15281f" stroke="#2a4a3a"/>
+<rect x="832" y="156" width="44" height="26" rx="5" fill="#ff9f43" opacity="0.22" stroke="#ff9f43"/>
+<text x="854" y="174" font-size="13.5" fill="#ff9f43" font-weight="700" text-anchor="middle" >EL1</text>
+<text x="890" y="164" font-size="14" fill="#eef4f0" font-weight="600" text-anchor="start" >Servo / LED strip</text>
+<text x="890" y="184" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >+5V · GND · GP4–7 · +5V · GND</text>
+<rect x="820" y="204" width="340" height="50" rx="8" fill="#15281f" stroke="#2a4a3a"/>
+<rect x="832" y="214" width="44" height="26" rx="5" fill="#ff9f43" opacity="0.22" stroke="#ff9f43"/>
+<text x="854" y="232" font-size="13.5" fill="#ff9f43" font-weight="700" text-anchor="middle" >EL4</text>
+<text x="890" y="222" font-size="14" fill="#eef4f0" font-weight="600" text-anchor="start" >Servo / LED strip</text>
+<text x="890" y="242" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >+5V · GND · GP18–21 · +5V · GND</text>
+<rect x="820" y="262" width="340" height="50" rx="8" fill="#15281f" stroke="#2a4a3a"/>
+<rect x="832" y="272" width="44" height="26" rx="5" fill="#5cc8ff" opacity="0.22" stroke="#5cc8ff"/>
+<text x="854" y="290" font-size="13.5" fill="#5cc8ff" font-weight="700" text-anchor="middle" >EL2</text>
+<text x="890" y="280" font-size="14" fill="#eef4f0" font-weight="600" text-anchor="start" >Joystick</text>
+<text x="890" y="300" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >3V3 · ADC46–47 · GP0–3 · GND</text>
+<rect x="820" y="320" width="340" height="50" rx="8" fill="#15281f" stroke="#2a4a3a"/>
+<rect x="832" y="330" width="44" height="26" rx="5" fill="#5cc8ff" opacity="0.22" stroke="#5cc8ff"/>
+<text x="854" y="348" font-size="13.5" fill="#5cc8ff" font-weight="700" text-anchor="middle" >EL3</text>
+<text x="890" y="338" font-size="14" fill="#eef4f0" font-weight="600" text-anchor="start" >Joystick</text>
+<text x="890" y="358" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >3V3 · ADC44–45 · GP36–39 · GND</text>
+<rect x="820" y="378" width="340" height="50" rx="8" fill="#15281f" stroke="#2a4a3a"/>
+<rect x="832" y="388" width="44" height="26" rx="5" fill="#5cc8ff" opacity="0.22" stroke="#5cc8ff"/>
+<text x="854" y="406" font-size="13.5" fill="#5cc8ff" font-weight="700" text-anchor="middle" >EL5</text>
+<text x="890" y="396" font-size="14" fill="#eef4f0" font-weight="600" text-anchor="start" >Joystick</text>
+<text x="890" y="416" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >3V3 · ADC40–41 · GP26–29 · GND</text>
+<rect x="820" y="436" width="340" height="50" rx="8" fill="#15281f" stroke="#2a4a3a"/>
+<rect x="832" y="446" width="44" height="26" rx="5" fill="#5cc8ff" opacity="0.22" stroke="#5cc8ff"/>
+<text x="854" y="464" font-size="13.5" fill="#5cc8ff" font-weight="700" text-anchor="middle" >EL6</text>
+<text x="890" y="454" font-size="14" fill="#eef4f0" font-weight="600" text-anchor="start" >Joystick</text>
+<text x="890" y="474" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >3V3 · ADC42–43 · GP30–33 · GND</text>
+<rect x="820" y="494" width="340" height="50" rx="8" fill="#15281f" stroke="#2a4a3a"/>
+<rect x="832" y="504" width="44" height="26" rx="5" fill="#b79cff" opacity="0.22" stroke="#b79cff"/>
+<text x="854" y="522" font-size="13.5" fill="#b79cff" font-weight="700" text-anchor="middle" >EL7</text>
+<text x="890" y="512" font-size="14" fill="#eef4f0" font-weight="600" text-anchor="start" >I2C + GPIO</text>
+<text x="890" y="532" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >3V3 · GP8–11 · SDA · SCL · GND</text>
+<rect x="820" y="552" width="340" height="50" rx="8" fill="#15281f" stroke="#2a4a3a"/>
+<rect x="832" y="562" width="44" height="26" rx="5" fill="#e3b341" opacity="0.22" stroke="#e3b341"/>
+<text x="854" y="580" font-size="13.5" fill="#e3b341" font-weight="700" text-anchor="middle" >OUT</text>
+<text x="890" y="570" font-size="14" fill="#eef4f0" font-weight="600" text-anchor="start" >Switched power</text>
+<text x="890" y="590" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >OUT+ ×2 · GND ×2, barrel voltage</text>
+<text x="820" y="632" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >Joystick connectors: 2 axes + up to 4 buttons each.</text>
+<text x="820" y="650" font-size="12.5" fill="#9db5a8" font-weight="400" text-anchor="start" >ADC pins aren't 5 V tolerant, so they get 3V3.</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphZmRlZGE2ZC03ZmJjLTRkNWMtYjY0Mi00NTEwZjFjODY0YzgAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaO4LJa01WRSp0i2dYzGHBXgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2ZWMwMDU2Yi1jOTY0LTRkOTUtYWE0YS1lNDJiZDE1ZDRiN2JscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoTgUA+/S6H2Lb6JgA8nxItAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggAK7RarhEFCZAvS1D5UOaM6Qijqg7upz7BnzAA8LSQgmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaH22Vm0CU4xNY3rgdy9gFV0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIHUCSKKUNeRHcX5eX48IdGN2Lg+jlncH9Fy/cAGLibwEZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GUXIZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmFmZGVkYTZkLTdmYmMtNGQ1Yy1iNjQyLTQ1MTBmMWM4NjRjOC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmNhM2M5Y2FiLTA0MmUtNDdhYi04OWNhLWJmY2IyZjFjODk2OHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAArtFquEQUJkC9LUPlQ5ozpCKOqDu6nPsGfMADwtJCCaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggSLItqDcSKq+cWoh056hse91J25t43UEfzJxEalXuG+OiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggmSUTJwQ+6nJs/CxT3B+mrfEmpOkMqKh1D98BUrldDYp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIIwmC2FDR7uNQ2drdPWqV4iouday+sr+ERcw7MCiwj441vZYfhx3+MytCD+SExyaQLcCCAR0gvbBMi/d24xpx4=</c2pa:manifest></metadata></svg>
